@@ -1,0 +1,99 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+div#loginWrapper{padding-bottom: 5px; margin-left: 19px;margin-right: 5%; position: relative;}
+form#category_list .catitem {font-weight: normal;}
+div#jobtable table { border-spacing: 0px;}
+div#jobtable ul, div#jobtable ul li { background-image: none }
+div#jobtable tr.headbg {font-size: 1.1em;}
+form#category_list #listSort{width: 65%;}
+form#category_list #filtrsubmit{margin-top: 8px;}
+div#loginWrapper #topSubmitCV{font-size: 0.86em;}
+form#category_list #drcapt {margin-left: 20px;float: left; font-size: smaller;}
+div#srchInputs .filterset {float: left; clear: none; width: auto; margin-left: 19px; padding-bottom: 7px;}
+div#srchInputs .filterset.submit {margin-top: 22px}
+div#srchInputs .filterset.submit input {float: left; }
+form#category_list #jobsearch, form#category_list #keysrch, form#category_list #locsrch {width: 100px;margin-right: 5px;border-radius: 1px;-moz-border-radius: 1px; -webkit-border-radius: 1px;-o-border-radius: 1px;-ms-border-radius: 1px;-khtml-border-radius: 1px;padding: 5px;font-size:11px}
+form#category_list #loadr {margin-left: 5px; min-width: 16px; padding-left: 18px; }
+div#jbrdadvsrch{border-top: 1px solid; border-bottom: 1px solid;padding: 10px;float:left; width: 74%;padding-bottom: 7px;margin-left:19px}
+div#jbrdadvsrch .checkRow label {font-weight: normal !important ;font-size: 11px;line-height: 1.54em;}
+div#jbrdadvsrch .checkRow label, .checkRow input[type="checkbox"] {margin-right: 4px;}
+div#jbrdadvsrch .checkRow input[type="checkbox"] {vertical-align: middle;height: 13px;}
+div#jobtable {width: 100%;padding: 5px 0 19px 0;border-top: 1px solid}
+div#jobtable table {width: 100%; border:none !important;}
+div#jobtable table td { margin: 0; padding: 5px;}
+div#jobtable h3{font-weight:bold;margin: 0 0 1em 0;}
+div#jobtable h3.featured {text-indent: 44px; min-height:17px; padding-top:2px}
+div#jobtable table a.button:active a.button:hover{text-decoration:none;}
+div#jobtable table tr td{padding: 5px 9px 6px;text-align: left;}
+div#jobtable table thead th{border-bottom: 1px solid;font-weight: bold;text-align: left;padding:1px 6px 10px;font-size: 12px;}
+div#jobtable table tbody tr th{font-weight: normal; border-left: none;padding: 6px 9px;}
+div#jobtable table tbody td{border: none;}
+div#jobtable table tbody td#listSort{border-left: 1px solid;border-top: 1px solid;border-bottom: 1px solid;}
+div#jobtable table tbody td#listOrder{width:30%;border-right: 1px solid;border-top: 1px solid;border-bottom: 1px solid;}
+div#jobtable table tfoot td,#jobtable table tfoot th{border-top: 1px solid;font-weight: bold;padding: 16px 9px;}
+div#jobtable p{font-size: 12px;padding: 10px;}
+div#jobtable select, #srchInputs input, #srchInputs select {font-size: 11px;}
+div#jobtable select, #srchInputs select {border: 1px solid; max-width: 260px;}
+div#jobtable a.button, div#jobtable a.button:active{font-weight: bold;border: 1px solid;border-radius: 14px;-moz-border-radius: 14px;-webkit-border-radius: 14px;-o-border-radius: 14px;-khtml-border-radius: 14px;-ms-border-radius: 14px;padding: 5px 10px;}
+div#jobtable a.button:hover, div#jobtable a.button:focus {border: 1px solid;text-decoration: none;}
+div#jobtable td#featured {border-left: 2px solid !important;border-right: 2px solid !important;width: 100%;}
+div#jobtable td#featured h3  {margin-top:5px;border-bottom: 1px dashed; padding-bottom: 5px; padding-left: 21px;}
+div#jobtable .featured.last{border-bottom: 2px solid !important;}
+div#jobtable .featured.fleft {border-left: 2px solid !important; }
+div#jobtable .featured.fright {border-right: 2px solid !important; }
+div#jobtable .jtitle {font-weight: bold; text-decoration: none; border: none;}
+div#jobtable .jtitle#listOrder, div#jobtable .jtitle.first {min-height: 18px;}
+#feedarea {padding-top: 6px; font-size: 0.9em; width: 100%; clear: both; text-align: center !important;}
+div#jobtable .feedicon {padding-left: 19px;}
+div#jobtable .sFeedicon {font-size: 90%;line-height: 2em;padding-left: 18px !important;}
+div#jobtable .pagination {float: right; text-align: right; clear: both; border: none; font-size: 0.94em; font-weight: bold;}
+div#jobtable .listView, div#jobtable .tableView {margin-right: 1px; padding: 0; padding-left: 15px!important; height: 15px;text-decoration: none;}
+div#jobtable .jobsnippet span.jobtype {width: 85px;}
+a#clearJtypeFilters, a#clearClevelFilters, a#clearElevelFilters {font-size: 10px;margin-left: 30px;margin-bottom: 7px;cursor: pointer;text-decoration: underline;}
+a#advsrch{font-size:11px; margin-right:8em;  padding-left: 11px;}
+a#advsrch.closed{margin-top:-5px;}
+div#jbrdadvsrch select { padding: 2px;}
+div#srch_info, div#keywd_info {font-size: 11px;}
+form#category_list .hidel {visibility: hidden;}
+form#category_list .showel {visibility: visible;}
+div#jobtable table tr, div#jobtable table td {
+    border: none;
+}
+/* Style/color - Job List:All layouts */
+div#jobtable {border-top-color: #eaeaea}
+div#jobtable tr.headbg {background-color: #F5F5F5;}
+div#srchInputs .inputovr {color: #aaa;}
+div#jobtable h3.featured {background: url('../images/featured.png') no-repeat scroll 0 0;}
+div#jobtable .featured.fleft h3 a:hover, div#jobtable .featured a:hover {color:#aaa; }
+div#jobtable table a.button:active a.button:hover{color:#fff;}
+div#jobtable table thead th{background: #fff;border-bottom-color: #D9D9D9;}
+div#jobtable table tbody tr th{background-color: #fff;}
+div#jobtable table tbody td#listSort{border-left-color: #eaeaea;border-top-color: #eaeaea;border-bottom-color: #eaeaea;}
+div#jobtable table tbody td#listOrder{border-right-color: #eaeaea;border-top-color: #eaeaea;border-bottom-color: #eaeaea;}
+div#jobtable table tbody tr.odd{background-color: #F3F3F3;}
+div#jobtable table tfoot td,#jobtable table tfoot th{border-top-color: #ccc;color: #592C16;}
+div#jobtable select, #srchInputs select { border-color: #f5f5f5;}
+div#jbrdadvsrch select { border-color: #ECECEC;}
+div#jobtable a.button, div#jobtable a.button:active{border-color: #009AC7;background: #009AC7;background-image: linear-gradient(top,#009AC7,#4D90FE);color: #fff;}
+div#jobtable a.button:hover, div#jobtable a.button:focus {border-color: #69C30B;background: #69C30B;color: #fff;}
+div#jobtable .featured,
+div#jobtable td#featured {background-color: #FAFAFA; }
+div#jobtable td#featured {border-left-color: #e5e5e5 !important;border-right-color: #e5e5e5 !important;}
+div#jobtable td#featured h3  {background: transparent url(../images/featured_arrow.png) no-repeat scroll left; border-bottom-color: #e5e5e5;}
+div#jobtable .featured.last{border-bottom-color: #e5e5e5 !important;}
+div#jobtable .featured.fleft {border-left-color: #e5e5e5 !important;line-height: 1.7em;}
+div#jobtable .featured.fright {border-right-color: #e5e5e5 !important;}
+div#jobtable .feedicon {background: transparent url(../images/social_icons.png) no-repeat scroll -105px center;}
+div#jobtable .sFeedicon {background: transparent url(../images/feed_s.png) no-repeat scroll left center;}
+div#jobtable .listView, div#jobtable .tableView {background: transparent url(../images/layout_sprite.png) no-repeat scroll}
+a#advsrch.closed{background: url(../images/adv_search_arr_dn.png) no-repeat 0 6px;}
+a#advsrch.open{background: url(../images/adv_search_arr_up.png) no-repeat 0 6px;}
+div#jbrdadvsrch {border-top-color: #E6E6E6; border-bottom-color: #E6E6E6; background-color: #f8f8f8}
+div#jbrdadvsrch div.checkRow label {color: #666}
+form#category_list #loadr {background: transparent url(../images/rnd_loader.gif) no-repeat scroll left;}
+/* end Style/color - Job List:All layouts  */

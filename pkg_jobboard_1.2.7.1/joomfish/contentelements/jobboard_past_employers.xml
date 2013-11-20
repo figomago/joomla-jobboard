@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Job Board - Employment History</name>
+  <author>figomago.wordpress.com</author>
+  <version>1.0</version>
+  <description>Definition for Employment History</description>
+  <copyright>2010 - 2012 figomago.wordpress.com.</copyright>
+  <reference type="content">
+  	<table name="jobboard_past_employers">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="job_title" length="50" maxlength="250" translate="1">Qualification</field>
+  		<field type="text" name="company_name" length="50" maxlength="250" translate="1">Company name</field>
+  		<field type="text" name="location" length="50" maxlength="96" translate="1">Location</field>
+  	</table>
+  </reference>
+</joomfish>

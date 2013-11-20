@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Job Board - Career Levels</name>
+  <author>figomago.wordpress.com</author>
+  <version>1.0</version>
+  <description>Definition for Career Levels</description>
+  <copyright>2010 - 2012 figomago.wordpress.com.</copyright>
+  <reference type="content">
+  	<table name="jobboard_career_levels">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="description"  length="50" maxlength="128" translate="1">Career level</field> 
+  	</table>
+  </reference>
+</joomfish>

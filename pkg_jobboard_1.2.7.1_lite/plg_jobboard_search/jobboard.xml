@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" method="upgrade" type="plugin" group="search">
+    <name>Job Board - Search</name>
+	<author>figomago.wordpress.com</author>
+    <authorEmail>figo.mago@gmail.com</authorEmail>
+	<creationDate>Nov 2013</creationDate>
+	<copyright>Copyright (c) 2010 - 2013 Tandolin Consultants cc/Figomago.</copyright>
+	<authorUrl>figomago.wordpress.com</authorUrl>
+	<version>1.0.0</version>
+	<license>GNU/GPL v3 or later</license>
+    <description>Search Plugin for Job Board</description>
+    <files>
+        <filename plugin="jobboard">jobboard.php</filename>
+		<filename>index.html</filename>
+    </files>
+    <languages>
+      <language tag="en-GB">languages/en-GB.plg_jobboard_search.ini</language>
+		<language tag="en-GB">languages/en-GB.plg_jobboard_search.sys.ini</language>
+    </languages>
+    <params>
+    </params>
+    <config>
+    </config>
+</install>

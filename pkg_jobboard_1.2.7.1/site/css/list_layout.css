@@ -1,0 +1,41 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+div#jobtable .listView {background-position: -16px 0; margin-right: 4%;}
+div#jobtable .listView:hover, div#jobtable .listView.active, div#jobtable .listView:active {background-position: -16px -32px;}
+div#jobtable .tableView { background-position: 0 0;}
+div#jobtable .tableView:hover, div#jobtable .tableView.active {background-position: 0 -16px;}
+div#jobtable .tableView:active {background-position: 0 -32px;}
+div#jobtable table tbody td.left{width: 70%;}
+div#jobtable table tbody td.right{width: 30%;}
+div#jobtable .fleft {width: 70%;  font-size: 95%}
+div#jobtable .fright {width: 30%; font-size: 90% }
+div#jobtable div {width: 100%;}
+div#jobtable table tbody td  {border-bottom: 1px solid;}
+div#jobtable ul {margin-top:10px}
+div#jobtable ul li {list-style: none;list-style-type: none; margin:4px auto 4px auto}
+div#jobtable ul .SummaryRow{list-style-type: none; border-bottom: 1px dotted;}
+div#jobtable ul .lastRow{padding-top: 10px; margin-left: 15%;}
+div#jobtable ul li .button{margin-top: 5px;font-size:11px}
+div#jobtable .sup {margin-left: 0; padding-left: 16px;}
+div#jobtable .sdown {margin-left: 0; padding-left: 16px;}
+.plusmargn {margin-left: 0;}
+div#jobtable .jobsnippet span.jobtype {font-size: 11px;}
+
+/* Style/color - Job List:List layout */
+
+div#jobtable .featured.fleft h3 a {color:#444; }
+div#jobtable ul li {background: transparent;}
+div#jobtable ul .SummaryRow{background: transparent; border-bottom-color: #bbb;}
+div#jobtable ul .SummaryRow.distance{color:inherit}
+div#jobtable ul .secondLast{border-bottom: none;}
+div#jobtable table tbody td  {border-bottom-color: #E6E6E6;}
+div#jobtable table tbody td.featured, div#jobtable table tbody td#featured {border-bottom: none;}
+div#jobtable .sup {background: transparent url(../images/list_arrow_up.png) no-repeat scroll left;}
+div#jobtable .sdown {background: transparent url(../images/list_arrow_down.png) no-repeat scroll left;}
+
+/* End Style/color - Job List:List layout */

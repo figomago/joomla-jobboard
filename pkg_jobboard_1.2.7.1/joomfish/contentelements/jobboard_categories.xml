@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Job Board - Categories</name>
+  <author>figomago.wordpress.com</author>
+  <version>1.0</version>
+  <description>Definition for Categories</description>
+  <copyright>2010 - 2012 figomago.wordpress.com.</copyright>
+  <reference type="content">
+  	<table name="jobboard_categories">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="text" name="type"  length="50" maxlength="64" translate="1">Category</field>
+  	</table>
+  </reference>
+</joomfish>

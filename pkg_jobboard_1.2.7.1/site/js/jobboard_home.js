@@ -1,0 +1,8 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+var TandolinJobboardHome=new Class({Implements:[Options,Events],options:{triggerContainer:"snapshot-tabs",containerSegName:"content",containerClassName:"subcontent",displayNoneClassName:"jbdispnone",selectedClassName:"selected",activeClassName:"active"},initialize:function(a){this.setOptions(a);this.triggerContainer=$(this.options.triggerContainer);this.triggerLis=this.triggerContainer.getElements("li");this.triggerLinks=this.triggerContainer.getElements("a");this.launch()},launch:function(){this.contDivs=$$("div."+this.options.containerClassName);this.contDivs.each(function(a){a.set("morph",{duration:500,transition:"quint:out",wait:false})}.bind(this));this.triggerLinks.each(function(a){a.addEvent("click",function(g){g.stop();if(!a.hasClass(this.options.activeClassName)){this.triggerLis.each(function(e){e.removeClass(this.options.activeClassName)}.bind(this));this.contDivs.each(function(e){e.morph({opacity:0});e.addClass(this.options.displayNoneClassName)}.bind(this));var c=a.getParent("li").id.split("-");var f=this.options.containerSegName+"-"+c[1];var d=$(f);var b=a.getParent("li");this.showContainer(d,b)}}.bind(this))}.bind(this))},showContainer:function(b,a){b.setStyle("opacity",0);b.removeClass(this.options.displayNoneClassName);this.showIn(b,a)},showIn:function(b,a){b.morph({opacity:1});a.addClass(this.options.activeClassName)}});window.addEvent("domready",function(){var a=a||{};a.HomeView=a.HomeView||{};a.HomeView.Home=new TandolinJobboardHome()});

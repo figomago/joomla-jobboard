@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Job Board - Questionnaires</name>
+  <author>figomago.wordpress.com</author>
+  <version>1.0</version>
+  <description>Definition for Questionnaires</description>
+  <copyright>2010 - 2012 figomago.wordpress.com.</copyright>
+  <reference type="content">
+  	<table name="jobboard_questionnaires">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="title" length="50" maxlength="250" translate="1">Title</field>
+  		<field type="textarea" name="description" cols="5" maxlength="3" translate="1">Description</field>
+  	</table>
+  </reference>
+</joomfish>

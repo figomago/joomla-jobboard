@@ -1,0 +1,61 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+div#loginWrapper {position:relative}
+div#aplpwrapper #applcont {width: 100%}
+div#aplpwrapper #contleft {float: left; width: 73%}
+div#aplpwrapper #contright {float: right; width: 25%; clear: none; padding: 10px 3px 5px 8px; border: 1px solid; font-size: 11px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -ms-border-radius: 3px;
+}
+div#aplpwrapper fieldset {
+  padding: 5px !important;
+  margin: 0 !important;
+  border: none !important;
+}
+div#aplpwrapper #contright .jsrow span.jobtype  {width: 90px; font-size: 10px;}
+div#aplpwrapper span.legend {
+  display: block;
+  float: left;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+div#aplpwrapper .fieldreq {margin-left:5px; font-weight:normal}
+div#aplpwrapper .controw label {font-weight:bold; cursor:pointer; padding-left: 6% }
+div#aplpwrapper .controw input, div#aplpwrapper .controw textarea {float: right;width: 53%; margin-right: 8%;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -o-border-radius: 1px;
+    -khtml-border-radius: 1px;
+    -ms-border-radius: 1px;
+}
+
+div#aplpwrapper .t15 {padding-top: 15px}
+div#aplpwrapper .mtop5 {margin-top: 5px}
+div#aplpwrapper .mleft10 {margin-left: 10px}
+div#aplpwrapper .summtitle {font-weight:bold}
+div#aplpwrapper #fslabel {padding-top: 2px; clear:both; margin-right: 12%; text-align: right}
+div#aplpwrapper .jsrow {width: 100%;clear: both; padding-top: 3px; padding-bottom: 2px;border-bottom: 1px dotted}
+div#aplpwrapper .lrow {border-bottom: none }
+div#aplpwrapper div.btnarea {clear: both; text-align:right; margin-right: 8%;margin-bottom: 30px}
+div#aplpwrapper .mright12p {
+margin-right: 12%;
+}
+
+/* Style/Colors Email job */
+div#aplpwrapper #contright {background-color:#F6F6F6; border-color: #ddd; }
+div#aplpwrapper .jsrow {color: #444;border-bottom-color: #bbb;}
+div#aplpwrapper .fieldreq {color: #cc0000;}
+div#aplpwrapper .summtitle {color:#999;}
+/* End Style/Colors Email job */
+

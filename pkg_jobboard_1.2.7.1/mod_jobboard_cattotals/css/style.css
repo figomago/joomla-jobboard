@@ -1,0 +1,53 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+table.tbljoblist {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	font-size: 87%;
+}
+
+table.tbljoblist th {
+	background: #F7F7F7;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	margin: 0;
+	padding: 5px 10px 5px 10px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+table.tbljoblist td {
+	padding: 5px 10px 5px 10px;
+	text-align: left;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+table.tbljoblist td.hilite {
+	color: #ff0022; /*E15E06*/
+}
+
+div.module_hilite table.tbljoblist td {
+border-bottom:1px dotted #bbb;
+padding: 5px 10px 5px 10px;
+text-align:left;
+}
+div.module_hilite table.tbljoblist td a {color: #222}
+
+div.module_hilite table.tbljoblist th {
+	background: #d4d4d4;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	margin: 0;
+	padding: 5px 10px 5px 10px;
+	text-align: left;
+	text-transform: uppercase;
+}
+div.module_nopad .jlink, div.module .jlink, div.module_hilite .jlink {
+  float: right;text-align:right;margin-right: 10px
+}

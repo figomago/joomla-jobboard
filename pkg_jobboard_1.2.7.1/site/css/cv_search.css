@@ -1,0 +1,83 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+div#cvsrcharea {width: auto; background-color: #f8f8f8; border: 1px solid #eee;border-radius: 2px;-moz-border-radius: 2px; -webkit-border-radius: 2px;-o-border-radius: 2px;-ms-border-radius: 2px;-khtml-border-radius: 2px;padding:10px}
+div#cvsrcharea label {float: left; clear: none; font-weight: normal; font-size: 95%}
+div#cvsrcharea input[type="text"] {float: left; clear: none; margin-right:15px;border-radius: 1px;-moz-border-radius: 1px; -webkit-border-radius: 1px;-o-border-radius: 1px;-ms-border-radius: 1px;-khtml-border-radius: 1px;padding: 5px;font-size:11px }
+div#cvsrcharea input[type="text"].last {margin-right:0}
+div#cvsrcharea input[type="submit"].search {
+  background-image: url("../images/search_white.png"); border: 1px solid #ddd; float: right;
+  width: 20px; height: 20px; margin: 13px 2px 0 0; padding: 0;
+  vertical-align: top; cursor:pointer;background-color: #ddd;
+  border-radius: 2px;-moz-border-radius: 2px; -webkit-border-radius: 2px;-o-border-radius: 2px;-ms-border-radius: 2px;-khtml-border-radius: 2px;
+}
+div#cvsrcharea input[type="submit"].search:hover {background-color: #eee;}
+div#cvsrcharea a.clearsrch, div#jbcontent div.refine ul.cvr-filter li a.close {
+  background: url("../images/close_reset.png") no-repeat scroll 0 -11px transparent;
+}
+div#cvsrcharea a.clearsrch {
+  display: block;
+  float: right;
+  height: 11px;
+  margin-left: 4px;
+  margin-top: 16px;
+  overflow: hidden;
+  text-indent: 20px;
+  width: 11px;
+}
+div#cvsrcharea a.clearsrch:hover, div#jbcontent div.refine ul.cvr-filter li a.close:hover {background-position: 0 0}
+div#cvsrcharea span.loadr {
+  background: url("../images/rnd_loader.gif") no-repeat scroll 0 0 transparent;
+  clear: none;
+  float: right;
+  margin-right: 5px;
+  margin-top: 16px;
+  padding-left: 16px;
+  padding-top: 11px;
+}
+div#jbcontent ul.refine {
+   float:right; width: 72%; clear: none;
+}
+div#jbcontent ul.refine li.content {
+   width:98%; margin-bottom:10px; padding-top:10px; border-top: 1px solid #eee
+}
+div#jbcontent div.refine {
+  float:left; width: 22%;
+  background-color: #F8F8F8;
+  border: 1px solid #EEEEEE;
+  border-radius: 2px;-moz-border-radius: 2px; -webkit-border-radius: 2px;-o-border-radius: 2px;-ms-border-radius: 2px;-khtml-border-radius: 2px;
+  padding: 10px;
+}
+div#jbcontent div.refine ul li, div#jbcontent div.refine ul li a, div#jbcontent div.refine span.cv-ftoggle {font-size:95%}
+div#jbcontent div.refine span.cv-ftoggle {
+  background: transparent url("../images/filtergrey_arr.png") no-repeat scroll 0 -14px;
+  cursor:pointer;
+  display: block; width: 90%;font-weight: bold;
+  margin-top: 10px; padding-left: 12px;
+  border-radius: 2px;-moz-border-radius: 2px; -webkit-border-radius: 2px;-o-border-radius: 2px;-ms-border-radius: 2px;-khtml-border-radius: 2px;
+}
+div#jbcontent div.refine span.cv-ftoggle.open {
+  background-position: 0  -1px;
+}
+div#jbcontent div.refine ul.cvr-filter  {margin-top: 10px; padding-bottom: 5px;}
+div#jbcontent div.refine ul.cvr-filter li  {margin-left: 3px; padding-bottom: 2px;}
+div#jbcontent div.refine ul.cvr-filter li a.close {
+  display: block;
+  float: right;
+  height: 11px;
+  margin-left: 4px;
+  margin-top: 2px;
+  overflow: hidden;
+  text-indent: 20px;
+  width: 11px;
+}
+div#cvprofs ul.refine span.linkedin {
+  float: left;
+  display: block;
+  min-width: 51px;
+  min-height: 14px;
+}

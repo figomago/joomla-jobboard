@@ -1,0 +1,48 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+div#loginWrapper {position:relative}
+div#aplpwrapper #applcont {width: 100%}
+div#aplpwrapper #contleft {float: left; width: 73%; margin-left: 17%}
+div#aplpwrapper .controw label { padding-left: 6% }
+div#aplpwrapper .controw input {float: right; margin-right:12%;padding-bottom:4px;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -o-border-radius: 1px;
+    -khtml-border-radius: 1px;
+    -ms-border-radius: 1px;
+    width: 51%;
+}
+div#aplpwrapper .rowsep textarea {float: right; margin-right: 8%; width: 47%;padding-top:5px;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -o-border-radius: 1px;
+    -khtml-border-radius: 1px;
+    -ms-border-radius: 1px;
+}
+div#aplpwrapper .mright12p {
+  margin-right: 12%;
+}
+div#aplpwrapper .fieldreq {margin-left:5px; font-weight:normal}
+#fslabel {padding-top: 2px; clear:both; margin-right: 12%; text-align: right}
+div#aplpwrapper .jsrow {color: #444; width: 100%;clear: both; padding-top: 3px; padding-bottom: 2px;border-bottom: 1px dotted #bbb}
+div#aplpwrapper .lrow {border-bottom: none }
+div#btnarea #loadr {margin-right:5px;padding-left: 18px;background:transparent url(../images/rnd_loader.gif) no-repeat scroll left}
+div#btnarea .hidel {visibility:hidden}
+div#btnarea .showel {visibility:visible}
+div#aplpwrapper div.btnarea {clear: both; padding-top: 15px; text-align:right;  margin-right: 8%;margin-bottom: 30px}
+
+/* Style/Colors Unsolicited job */
+div#aplpwrapper .jsrow {color: #444;border-bottom-color: #bbb;}
+div#aplpwrapper .fieldreq {color: #cc0000;}
+/* End Style/Colors Unsolicited job */
+
+input.sl_sid, input.ml_id {
+  display: none; border-collapse: collapse;
+}

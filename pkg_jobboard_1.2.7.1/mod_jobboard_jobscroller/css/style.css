@@ -1,0 +1,87 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+#JobsTicker{
+	width:auto;
+	margin:0 auto;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+	#JobsTicker h1{
+		padding:6px; margin:0; border:0;
+		font-size:11px;
+		font-weight:bold;
+	}
+	#controller{
+	padding:6px 6px 15px;
+	font-size:11px;
+	}
+	#play_scroll_cont{display:none;}
+/* --------------- */
+    #scrollerWrapper {
+		padding:0;margin:0;overflow:hidden
+    }
+/* Scroller Vertical */
+	#ScrollerVertical {
+		width: 100%;
+		min-height: 100px;
+		display: block;
+		list-style: none;
+		margin: 5px 0;
+		padding: 0;
+	    overflow: hidden;
+	}                                                 
+	#ScrollerVertical li {
+		display: block;
+		width: 100%;
+		text-align: left;
+		font-size: 11px;
+        font-weight:normal;
+		margin: 0;
+		padding: 9px 6px;
+		float: left;
+        border-bottom: 1px solid #ddd;
+        background-image:none !important; list-style-type:none !important;
+	}
+		#ScrollerVertical li .NewsTitle{
+			display: block;
+			font-size: 12px;
+			font-weight:bold;
+			margin-bottom:6px;
+		}
+		#ScrollerVertical li .NewsTitle a:link,
+		#ScrollerVertical li .NewsTitle a:Visited {
+			display: block;
+			font-size: 12px;
+			font-weight:bold;
+			margin-bottom:6px;
+			text-decoration:none;
+		}
+		#ScrollerVertical li .NewsTitle a:hover {
+			text-decoration:underline;
+		}
+
+		#ScrollerVertical li .NewsImg{
+			float:left;
+			margin-right:10px;
+		}
+		#ScrollerVertical li .NewsFooter{
+			display: block;
+			font-size: 10px;
+			margin:6px 0 14px 0;
+		}
+        #stop_scroll_cont {
+          cursor: pointer;
+        }
+        #start_scroll_cont {
+          display:none;
+          cursor: pointer;
+        }
+        #stop_scroll_cont a img, #start_scroll_cont a img {
+          line-height: 1em;
+        }

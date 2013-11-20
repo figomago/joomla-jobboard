@@ -1,0 +1,29 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+ /** Internet Explorer Hacks **/
+
+div#jobcont .jsrow span.contract, div#jobtable span.contract, div#contright span.contract {
+  }
+div#jobcont .jsrow span.internship, div#jobtable span.internship, div#contright span.internship {
+
+  }
+div#jobcont .jsrow span.full-time, div#jobtable span.full-time, div#contright span.full-time {
+
+  }
+div#jobcont .jsrow span.part-time, div#jobtable span.part-time, div#contright span.part-time {
+
+  }
+div#jobcont .jsrow span.temporary, div#jobtable span.temporary, div#contright span.temporary {
+
+  }
+div#jobcont .jsrow span.other, div#jobtable span.other, div#contright span.other {
+
+  }
+div#jobcont .jsrow span.jobtype, div#jobtable .jobsnippet span.jobtype , div#contright span.jobtype  {
+
+}

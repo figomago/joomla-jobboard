@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>JOBBOARD</name>
+	<version>1.2.7 Lite</version>
+	<author>figomago.wordpress.com</author>
+	<copyright>Tandolin Consultants cc/Figomago, 2010-2013</copyright>
+	<license>GPLv3 or later</license>
+	<authorEmail>figo.mago@gmail.com</authorEmail>
+	<creationDate>Nov 2013</creationDate>
+	<description>Job Board for Joomla!</description>
+	<files folder="site">
+		<folder>controllers</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+		<filename>jobboard.php</filename>
+		<filename>router.php</filename>
+		<filename>index.htm</filename>
+	</files>
+    <languages folder="site/lang">
+  		<language tag="en-GB">en-GB.com_jobboard.ini</language>
+  	</languages>
+
+	<administration>
+		<menu img="components/com_jobboard/images/jb_main.png" link="option=com_jobboard">COM_JOBBOARD_ADM_MENU_JB</menu>
+		<submenu>
+			<menu img="components/com_jobboard/images/icn16_dashboard.png" link="option=com_jobboard">COM_JOBBOARD_ADM_MENU_DASHBOARD</menu>
+			<menu img="components/com_jobboard/images/icn16_jobs.png" link="option=com_jobboard&amp;view=jobs">COM_JOBBOARD_ADM_MENU_JOBS</menu>
+			<menu img="components/com_jobboard/images/icn16_applicants.png" link="option=com_jobboard&amp;view=applicants">COM_JOBBOARD_ADM_MENU_APPLICANTS</menu>
+			<menu img="components/com_jobboard/images/icn16_emails.png" link="option=com_jobboard&amp;view=messages">COM_JOBBOARD_ADM_MENU_EMAILS</menu>
+			<menu img="components/com_jobboard/images/icn16_categories.png" link="option=com_jobboard&amp;view=category">COM_JOBBOARD_ADM_MENU_CATEG</menu>
+			<menu img="components/com_jobboard/images/icn16_careers.png" link="option=com_jobboard&amp;view=careerlevels">COM_JOBBOARD_ADM_MENU_CAREERL</menu>
+			<menu img="components/com_jobboard/images/icn16_education.png" link="option=com_jobboard&amp;view=education">COM_JOBBOARD_ADM_MENU_EDUL</menu>
+			<menu img="components/com_jobboard/images/icn16_departments.png" link="option=com_jobboard&amp;view=departments">COM_JOBBOARD_ADM_MENU_DEPTS</menu>
+			<menu img="components/com_jobboard/images/icn16_statuses.png" link="option=com_jobboard&amp;view=statuses">COM_JOBBOARD_ADM_MENU_STATUSES</menu>
+			<menu img="components/com_jobboard/images/icn16_settings.png" link="option=com_jobboard&amp;view=config">COM_JOBBOARD_ADM_MENU_CONFIG</menu>
+		</submenu>
+		<files folder="admin">
+			<folder>controllers</folder>
+			<folder>css</folder>
+			<folder>cv</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>images</folder>
+			<folder>js</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<filename>config.xml</filename>
+			<filename>jobboard.php</filename>
+			<filename>install.jobboard.sql</filename>
+			<filename>uninstall.jobboard.sql</filename>
+			<filename>index.htm</filename>
+		</files>
+      	<languages folder="admin/lang">
+      		<language tag="en-GB">en-GB.com_jobboard.ini</language>
+      		<language tag="en-GB">en-GB.com_jobboard.menu.ini</language>
+      		<language tag="en-GB">en-GB.com_jobboard.sys.ini</language>
+      	</languages>
+	</administration>
+
+	<installfile>install.jobboard.php</installfile>
+    <uninstallfile>uninstall.jobboard.php</uninstallfile>
+
+	<install>
+		<sql><file driver="mysql" charset="utf8">install.jobboard.sql</file></sql>
+	</install>
+	<uninstall>
+		<sql><file driver="mysql" charset="utf8">uninstall.jobboard.sql</file></sql>
+	</uninstall>
+
+    <!-- Modules -->
+	<modules>
+		<!-- <module module="mod_jobboard_*" publish="true" client="site"/> -->
+		<module module="jobboard_latest" client="site" position="left" />
+		<module module="jobboard_popular" client="site" position="left" />
+		<module module="jobboard_cattotals" client="site" position="left" />
+	</modules>
+
+    <!-- Plugins -->
+	<plugins>
+        <plugin plugin="jobboard_schedule" publish="true" group="system" />
+        <plugin plugin="jobboard" publish="true" group="search" />
+	</plugins>
+
+    <!-- JoomFish -->
+  	<joomfish>
+        <defn>jobboard_applicants.xml</defn>
+        <defn>jobboard_career_levels.xml</defn>
+        <defn>jobboard_categories.xml</defn>
+        <defn>jobboard_countries.xml</defn>
+        <defn>jobboard_emailmsg.xml</defn>
+        <defn>jobboard_file_uploads.xml</defn>
+        <defn>jobboard_jobs.xml</defn>
+        <defn>jobboard_statuses.xml</defn>
+        <defn>jobboard_unsolicited.xml</defn>
+    </joomfish>
+</install>

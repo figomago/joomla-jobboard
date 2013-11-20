@@ -1,0 +1,144 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+div.widecol {
+  float: left;
+  padding-right: 10px;
+  width: 67%;
+}
+div.narrowcol {
+  clear: none;
+  float: right;
+  margin-right: 1%;
+  width: 27%;
+}
+div.widecol, table .widecol, div.narrowcol, table .narrowcol {
+  font-size: 12px;
+  margin-top: 10px;
+}
+div#cvprofs input.pedit, .btn-grn {
+  background-color: #8DC421;
+  border-color: #749E1B;
+  color: #FFFFFF;
+  text-shadow: 0 1px 1px rgba(150, 150, 150, 0.8);
+   float:left; clear:none;margin-top:10px; margin-left: 10px; margin-bottom: 5px; font-size:90%;font-weight:normal;
+ padding: 2px 6px;border:1px solid; cursor:pointer;
+ border-radius: 3px; -moz-border-radius: 3px;  -webkit-border-radius: 3px; -o-border-radius: 3px;
+ -ms-border-radius: 3px; -khtml-border-radius: 3px;
+ background: -moz-linear-gradient(100% 100% 90deg, transparent, rgba(0, 0, 0, 0.1)) repeat scroll 0 0;
+ background: -webkit-linear-gradient(100% 100% 90deg, transparent, rgba(0, 0, 0, 0.1)) repeat scroll 0 0;
+ background: -o-linear-gradient(100% 100% 90deg, transparent, rgba(0, 0, 0, 0.1)) repeat scroll 0 0;
+ background: linear-gradient(100% 100% 90deg, transparent, rgba(0, 0, 0, 0.1)) repeat scroll 0 0;
+}
+div#cvpreview div.filerow {
+  border: none;
+  border-bottom: 1px solid #E3E3E3;
+width: 99%;
+float: left;
+clear: both;
+margin-top: 1px;
+padding-bottom: 5px;
+}
+div#cvpreview form#frmInvite {display:none}
+div#cvpreview div.item {
+margin-bottom: 25px;
+display: block;
+float: left;
+clear: both;
+width: 99%;
+}
+div#cvpreview h2 {
+clear: both;
+border-bottom: 2px solid #E0E0E0;
+padding: 4px 4px 3px;
+color: #999;
+font-size: 16px;
+}
+div#cvpreview span.skillset {
+float: left;
+width: auto;
+margin-right: 10px;
+padding-top: 5px;
+cursor: default;
+}
+div#cvpreview span.skillset span.skill {
+background-color: #DDD;display: block;
+margin-bottom: 5px;
+font-size: 95%;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+-ms-border-radius: 5px;
+-khtml-border-radius: 5px;
+padding: 2px 5px;
+}
+div#cvpreview span.skillset abbr {
+font-size: 90%;
+}
+div#cvpreview div.boxtitle h3 {
+color: black;
+clear: both;
+font-size: 110%;
+font-weight: bold;
+margin: 10px 0 2px;
+overflow: hidden;
+margin-bottom: 4px;
+margin-top: 25px;
+}
+div#cvpreview div.boxtitle h4 {
+clear: both;
+font-size: 97%;
+font-weight: bold;
+line-height: 1.4; color: #074764;
+}
+div#cvpreview p.period {
+margin-top: -10px;
+}
+abbr[title], acronym[title] {
+border-bottom: 1px dotted;
+}
+div#cvpreview #frmedit3 input.btnedit {
+  margin-bottom: 30px;
+}
+div#cvpreview h4.fileshead {
+   margin-top: 10px;margin-bottom: 5px;clear: both;
+}
+
+div#cvpreview h2.linkedin {
+  min-height: 11px; padding-left: 55px; margin-bottom: 5px;
+  background: url("../images/Linkedin_logo_transp.png") no-repeat scroll left transparent;
+}
+div.narrowcol div, table .narrowcol div {
+clear: both;
+float: left;
+width: 100%;
+margin-top: 10px;
+}
+div.narrowcol label, div.narrowcol span.label, div.narrowcol span.labeltxt,
+table .narrowcol label, table .narrowcol span.label, table .narrowcol span.labeltxt,
+ {
+clear: both;
+display: block;
+float: left;
+font-size: 12px;
+margin-right: 10px;
+font-weight: bold;
+margin-top: 0;
+}
+
+div.narrowcol div span.field,
+table .narrowcol div span.field {
+display: block;
+float: left;
+margin-left: 15px;
+clear: none;
+}
+div.narrowcol span.rlist {display:none;}
+.right {
+  float:right
+}

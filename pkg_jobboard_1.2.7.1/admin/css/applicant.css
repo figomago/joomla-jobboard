@@ -1,0 +1,89 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+table .widecol input[type="text"], table .widecol input[type="file"], table .widecol select, table .widecol  textarea {
+  float: right;
+  font-size: 12px;
+  margin: 10px 5px 0 0;
+  padding: 4px;
+  vertical-align: top;
+}
+table .widecol label,
+table .widecol label, table .narrowcol label {
+  clear: both;
+  float: left;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.clearfix{
+  clear: both; display: block;
+}
+.mtop10 {
+  margin-top: 10px;
+}
+.ptop10 {
+  padding-top: 10px;
+}
+table .widecol div#fpanel {
+  width: 99%;
+  background-color: #F8F8F8;
+  border: 1px solid #DEDEDE;
+  border-radius: 2px 2px 2px 2px;
+  clear: both;
+  float: left;
+  margin-top: 1px;
+}
+div.qrow {
+  margin: 0;
+  min-height: 40px;
+  padding: 0 8px 21px 10px;
+  width: auto;
+}
+div.qrow.viewing {
+  cursor: default;
+  border: 1px solid #eee;
+}
+div.qrow.white, div.qrow.white:hover {
+  background-color: #FFFFFF;
+}
+div.qrow span.radios label, div.qrow span.checkbox, div.qrow span.datelbl, div#ed_extra span.checkbox {
+  font-size: 11px;
+  font-weight: normal;
+  margin: 5px 0 0;
+}
+div.qrow span.checkbox, div#ed_extra span.checkbox, div#ed_extra input.subinput, div.qrow span.datelbl {
+  float: right;
+  margin-right: 5px;
+  margin-top: 12px;
+}
+div.qrow input[type="checkbox"] {
+  margin-right: 3em;
+  margin-top: 13px;
+  float: right;
+  vertical-align: middle;
+}
+div.qrow span.radios {
+  clear: none;
+  float: right;
+  margin-right: 5%;
+  padding: 2px;
+}
+div.qrow span.radios span.radio {
+  clear: both;
+  float: left;
+  padding: 1px;
+  width: 100%;
+}
+div.qrow span.radios input {
+  float: right;
+  margin: 5px 0 0 5px;
+}
+div#fpanel label.restricted {
+  background: url("../images/locked.png") no-repeat scroll 0 0 transparent;
+  padding-left: 16px;
+}

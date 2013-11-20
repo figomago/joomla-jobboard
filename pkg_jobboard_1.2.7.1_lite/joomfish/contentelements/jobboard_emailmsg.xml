@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Job Board - Email Templates</name>
+  <author>figomago.wordpress.com</author>
+  <version>1.0</version>
+  <description>Definition for Email Templates</description>
+  <copyright>2010 - 2012 figomago.wordpress.com.</copyright>
+  <reference type="content">
+  	<table name="jobboard_emailmsg">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="subject"  length="50" maxlength="250" translate="1">Subject</field>
+  		<field type="textarea" name="body"  cols="80" rows="10" translate="1">Message</field>
+  	</table>
+  </reference>
+</joomfish>

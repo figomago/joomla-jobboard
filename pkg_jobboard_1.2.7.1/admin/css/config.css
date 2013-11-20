@@ -1,0 +1,77 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+table.config.left {
+     float:left;width:48.9%
+}
+table.config.right {
+     float:right;width:48.9%
+}
+table.config td.configsectionhead {font-weight: bold; margin-top: 10px; color: #000; height: 30px; vertical-align: bottom;}
+th.usergrp td, tr.usergrp td  {
+  max-width: 30px;
+}
+tr.usergrp td {
+  border-bottom: 1px solid #ddd;
+  min-height: 25px;
+}
+table.config tr td.note {
+  font-size: 0.96em;
+  margin-left: 15%;
+}
+div#cfigoptions {
+  width: 70%; margin: 0 auto;
+  border-bottom: 1px solid #777;
+}
+div#cfigoptions .right {
+  float: right;
+  margin-top: 5px;
+}
+div#cfigoptions ul.tabs {
+    margin: 0;
+    list-style: none outside none;
+    margin: 0 0 6px 3px;
+    padding: 0;
+}
+div#cfigoptions ul.tabs li {
+  background: none repeat scroll 0 0 transparent;
+  display: inline;
+  list-style: none outside none;
+  margin: 0;
+}
+div#cfigoptions ul.tabs li a {
+  cursor: pointer;
+  height: 26px;
+  line-height: 26px;
+  outline: 0 none;
+  padding: 0;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+}
+div#cfigoptions ul.tabs li a span {
+  color: #111;
+  border-radius: 40px 40px 40px 40px;
+  font-size: 96%;
+  font-weight: bold;
+  height: 25px;
+  letter-spacing: 0;
+  line-height: 25px;
+  padding: 5px 7px;
+}
+div#cfigoptions ul.tabs li a span:hover {
+  box-shadow: 0 0 3px #0984BD;
+  -moz-box-shadow: 0 0 3px #0984BD;
+  -webkit-box-shadow: 0 0 3px #0984BD;
+  -o-box-shadow: 0 0 3px #0984BD;
+  -khtml-box-shadow: 0 0 3px #0984BD;
+  -ms-box-shadow: 0 0 3px #0984BD;
+}
+div#cfigoptions ul.tabs li a span.active {
+  background-color: #333333;
+  color: #FFFFFF;
+  text-shadow: 0 1px 0 #777;
+}

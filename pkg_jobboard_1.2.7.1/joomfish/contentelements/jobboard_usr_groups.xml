@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Job Board - User Groups</name>
+  <author>figomago.wordpress.com</author>
+  <version>1.0</version>
+  <description>Definition for User Groups</description>
+  <copyright>2010 - 2012 figomago.wordpress.com.</copyright>
+  <reference type="content">
+  	<table name="jobboard_usr_groups">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="text" name="group_name" length="50" rows="128" translate="1">Notes</field>
+  	</table>
+  </reference>
+</joomfish>

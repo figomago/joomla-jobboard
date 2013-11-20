@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Job Board - Applicants</name>
+  <author>figomago.wordpress.com</author>
+  <version>1.0</version>
+  <description>Definition for Applicants</description>
+  <copyright>2010 - 2013 figomago.wordpress.com.</copyright>
+  <reference type="content">
+  	<table name="jobboard_applicants">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="title"  length="50" maxlength="96" translate="1">Title</field>
+  		<field type="text" name="first_name"  length="50" maxlength="96" translate="1">First name</field>
+  		<field type="text" name="last_name"  length="50" maxlength="96" translate="1">Last name</field>
+  		<field type="textarea" name="cover_note"  cols="10" rows="5" translate="1">Cover note</field>
+  	</table>
+  </reference>
+</joomfish>

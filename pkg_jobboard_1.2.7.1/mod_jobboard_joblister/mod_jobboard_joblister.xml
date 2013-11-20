@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="module" client="site">
+  <name>Job Lister (Ajax)</name>
+  <author>figomago.wordpress.com</author>
+  <authorEmail>figo.mago@gmail.com</authorEmail>
+  <authorUrl>http://figomago.wordpress.com</authorUrl>
+  <creationDate>Nov 2013</creationDate>
+  <copyright>Tandolin Consultants cc/Figomago</copyright>
+  <license>GNU/GPL v3 or later</license>
+  <version>1.1.0</version>
+  <description>Highly configurable module to display jobs in a variety of ways. Job board component must be installed first.</description>
+  <files>
+    <filename module="mod_jobboard_joblister">mod_jobboard_joblister.php</filename>
+    <filename module="mod_jobboard_joblister">index.htm</filename>
+    <filename module="mod_jobboard_joblister">helper.php</filename>
+    <folder module="mod_jobboard_joblister">css</folder>
+    <folder module="mod_jobboard_joblister">js</folder>
+    <folder module="mod_jobboard_joblister">img</folder>
+    <folder module="mod_jobboard_joblister">tmpl</folder>
+  </files>
+  <languages>
+    <language tag="en-GB">languages/en-GB.mod_jobboard_joblister.ini</language>
+    <language tag="en-GB">languages/en-GB.mod_jobboard_joblister.sys.ini</language>
+  </languages>
+  <params>
+    <param name="moduleclass_sfx" type="text" default="" label="MOD_JOBBOARD_LISTER_SETTINGS" description="PARAMMODULECLASSSUFFIX" />
+    <param name="limit" type="text" default="5" label="MOD_JOBBOARD_LISTER_NUMJOBSLIST" description="MOD_JOBBOARD_LISTER_NUMJOBSLIST_DESCR" />
+  </params>
+  <params group="advanced">
+    <param name="cache" type="list" default="1" label="MOD_JOBBOARD_LISTER_CACHING" description="MOD_JOBBOARD_LISTER_CACHING_DESCR">
+    	<option value="1">MOD_JOBBOARD_LISTER_CACHING_GLBL</option>
+    	<option value="0">MOD_JOBBOARD_LISTER_CACHING_NONE</option>
+    </param>
+    <param name="cache_time" type="text" default="900" label="MOD_JOBBOARD_LISTER_CACHING_TIME" description="MOD_JOBBOARD_LISTER_CACHING_TIME_DESCR" />
+  </params>
+  <config>
+    <fields name="params">
+      <fieldset name="basic" label="MOD_JOBBOARD_LISTER_PARAMS" description="MOD_JOBBOARD_LISTER_SETTINGS">                                   
+        <field name="limit" type="text" default="5" label="MOD_JOBBOARD_LISTER_NUMJOBSLIST" description="MOD_JOBBOARD_LISTER_NUMJOBSLIST_DESCR"></field>
+      </fieldset>
+      <fieldset name="advanced">
+    		<field
+    			name="layout"
+    			type="modulelayout"
+    			label="JFIELD_ALT_LAYOUT_LABEL"
+    			description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+
+    		<field
+    			name="moduleclass_sfx"
+    			type="text"
+    			label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+    			description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+    		<field
+    			name="cache"
+    			type="list"
+    			default="1"
+    			label="COM_MODULES_FIELD_CACHING_LABEL"
+    			description="COM_MODULES_FIELD_CACHING_DESC">
+    			<option
+    				value="1">JGLOBAL_USE_GLOBAL</option>
+    			<option
+    				value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+    		</field>
+
+    		<field
+    			name="cache_time"
+    			type="text"
+    			default="900"
+    			label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+    			description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+    		<field
+    			name="cachemode"
+    			type="hidden"
+    			default="static">
+    			<option
+    				value="static"></option>
+    		</field>
+    	</fieldset>
+    </fields>
+  </config>
+</install>

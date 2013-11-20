@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Job Board - File Uploads</name>
+  <author>figomago.wordpress.com</author>
+  <version>1.0</version>
+  <description>Definition for File Uploads</description>
+  <copyright>2010 - 2012 figomago.wordpress.com.</copyright>
+  <reference type="content">
+  	<table name="jobboard_file_uploads">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="filetitle"  length="50" maxlength="96" translate="1">File title</field>
+  	</table>
+  </reference>
+</joomfish>

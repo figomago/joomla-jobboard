@@ -1,0 +1,158 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+div#loginWrapper {position:relative}
+div#jobcont {width:100%; float:left}
+div#jobcont div#jobcontent {width:100%; min-height:450px}
+div#jobcont #jobsumm {font-size: 0.94em;width:23%; float:left; clear: none; background-color:#FAFAFA; padding: 10px 3px 5px 8px; border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -ms-border-radius: 3px;
+}
+div#jobcont .summtitle {color:#777;font-weight:bold}
+div#jobcont #hitsumm {background-color:#F6F6F6; padding: 4px;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -o-border-radius: 3px 3px 3px 3px;
+    -khtml-border-radius: 3px 3px 3px 3px;
+    -ms-border-radius: 3px 3px 3px 3px;
+}
+div#jobcont #hsback {width:auto; float: right; margin-right: 10px}
+div#jobcont .hit {font-size:1.2em; font-weight:bold}
+div#jobcont .jsrow {color: #333; width: 100%;clear: both; padding-top: 3px; padding-bottom: 2px;border-bottom: 1px dotted #bbb}
+div#jobcont #jobdet {width:73%; float:right; clear: none;}
+div#jobcont .lsretrn {float:left; clear:none; padding-right:15px}
+div#jobcont .applbut {cursor: pointer;margin-bottom: 7px; font-size: 90%}
+div#jobcont .sharetitl {margin-left: 40px; font-weight: bold}
+div#jobcont .sharespan {margin-left: 7px}
+div#jobcont .first {margin-left: 3px}
+div#jobcont #divbottom {padding-top: 8px;}
+div#jobcont #linkedin  {background:transparent url(../images/social_icons.png) no-repeat scroll -83px center;}
+div#jobcont #facebook  {background:transparent url(../images/social_icons.png) no-repeat scroll -62px center;}
+div#jobcont #twitter  {background:transparent url(../images/social_icons.png) no-repeat scroll 0 0;}
+div#jobcont #twitter, div#jobcont #facebook, div#jobcont #linkedin  {float:left; clear: none; width: 17px; height: 16px; margin-right:10px}
+div#jobcont #socialbtns {width: auto; float: right; height:65px; }
+div#jobcont #socialbtns div {float: left; clear: none; display: inline; padding-left: 8px}
+div#jobcont #socialbtns #jblishare  {vertical-align: bottom}
+div#jobcont #socialbtns #litweet {vertical-align: bottom}
+div#jobcont .jsrow span.jobtype  {
+    font-size: 10px;
+	width: 90px;
+}
+div#jobcont #sb_lastrow{
+    padding: 5px; margin-top: 5px
+}
+
+ /** Job Tags/Keywords */
+div#jobcont .jtspan{font-family:"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif; font-style:italic}
+div#jobcont .jtlabel{font-weight:bold; font-style:italic}
+
+div#jobcont a.bkmrk {
+  background: url("../images/star.png") no-repeat scroll left transparent;
+  float: right;
+  clear: none;
+  min-height: 16px;
+  width: 16px;
+  cursor:pointer;
+}
+div#jobcont a#view_map, div#jobcont a#sb_view_map, div#jobcont a#map_cls {min-width: 12px; min-height: 19px; background: url("../images/geo_marker.png") no-repeat scroll 0 0 transparent;padding-left: 15px;padding-top: 5px;}
+div#jobcont a#view_map, div#jobcont a#map_cls {font-size: 11px;}
+div#jobcont a#map_cls {background-position: 0 -25px;}
+div#jobcont a#map_cls:hover {background-position: 0 -50px;}
+div#jobcont a#map_cls:ctive {background-position: 0 0;}
+div#jobcont a#view_map:hover, div#jobcont a#sb_view_map:hover { background-position: 0 -25px; }
+div#jobcont a#view_map:active, div#jobcont a#sb_view_map:active { background-position: 0 -50px; }
+div#jobcont div#mapBorder {clear: both; height:310px; background: transparent; width:100%; border: 1px solid #D9D9D9;
+box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.5) inset;
+-moz-box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.5) inset;
+border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px; -khtml-border-radius: 3px; -ms-border-radius: 3px;
+-moz-border-radius: 2px;
+margin:0; padding:0;
+}
+div#jobcont div#jobpostMap {height:100%; width:100%;
+overflow: hidden;  background-color: #E5E3DF;
+/*z-index: -1;*/
+}
+div#jobcont a.bkmrk:hover {
+  background-position: -16px 0;
+}
+div#jobcont a.bkmrk:active, div#jobcont a.bkmrk.active {
+  background-position: -32px 0;
+}
+div#jobcont small.startext {
+  float: right;
+  clear: none;
+}
+div#jobcont a.btn {
+  margin-right: 15px;
+}
+div#jobcont div.socialrow {
+    width: 100%;
+    clear:both;
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    margin-top: 10px;
+    padding: 10px 0 10px 0;
+    float: left;
+    display: block;
+  }
+div#jobcont div.socialrow .sharertwitter {
+    float: left;
+    width: 100px;
+    border-right: 1px solid #E7E7E7;
+    margin: 0 10px 0 0;
+  }
+div#jobcont div.socialrow .fb-like {
+    float: left;
+    width: 120px;
+    border-right: 1px solid #E7E7E7;
+  }
+div#jobcont div.socialrow .sharelinkedin {
+    float: left;
+    width: 110px;
+    margin: 0 0 0 5px;
+    border-right: 1px solid #E7E7E7;
+  }
+div#jobcont div.socialrow .sharergplus {
+    float: left;
+    width: 80px;
+    margin: 0 0 0 10px;
+  }
+div#jobcont div.socialrow .emailfriend {
+    float: right;
+    cursor: pointer;
+    min-width: 24px;
+    line-height:20px;
+    margin: 0 0 0 10px;
+    padding-left: 26px;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: "arial", sans-serif;
+    color: #3B5998;
+    background: url("../images/mailfriend.jpg") left no-repeat;
+  }
+div#jobcont div#bookmrk {
+  padding-top: 10px; clear: both; padding-bottom: 15px
+}
+div#jobcont div#admin_btns { width: 100%; float: left; clear:both; margin-top: 10px; font-size: smaller}
+div#jobcont div#admin_btns input { font-size: 11px !important }
+
+/* iframe modal styles */
+
+body.contentpane, body.body-overlayed {
+   font-family: Arial,'Helvetica Neue',Helvetica,Verdana,sans-serif !important; font-size: 75% !important;
+}
+body.contentpane input, body.contentpane a, body.contentpane button, body.contentpane .button
+, body.contentpane .jtlabel, body.contentpane .jtspan, body.contentpane #divbottom,
+body.body-overlayed input, body.body-overlayed a, body.body-overlayed button, body.body-overlayed .button
+, body.body-overlayed .jtlabel, body.body-overlayed .jtspan, body.body-overlayed #divbottom
+{display:none !important;}
+

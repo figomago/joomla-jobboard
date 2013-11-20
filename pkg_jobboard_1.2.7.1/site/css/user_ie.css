@@ -1,0 +1,63 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+ /** Internet Explorer Hacks **/
+
+#jbcnav ul#tabs {
+    display: inline-block;
+    position:relative;
+    zoom: 1;
+    *display: inline;
+}
+#jbcnav ul#tabs li, #jbcnav ul#tabs li a {
+  display: inline-block;
+  float:left;
+    zoom: 1;
+    *display: inline;
+}
+#jbcnav ul#subtabs li {
+  display: inline-block;
+  width: 35% !important;
+    zoom: 1;
+    *display: inline;
+}
+div#cvsrcharea label, div#cvsrcharea form input[type=text] {
+  float: left;
+  clear: none !important;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+#jbcnav #upanel div.panel_nav { width:30% !important}
+.clear { display: inline-block;clear:both }
+div#jbcontent form label{
+  width:auto;
+  clear: both;
+}
+div#jbcontent form {
+  vertical-align: top !important;
+}
+
+div#jbcontent form input[type=text], div#jbcontent form input[type=file], div#jbcontent form select, div#jbcontent form textarea, div#jbcontent form input[type=checkbox] {
+    margin: 10px 5px 0 0;font-size: 12px;
+    padding: 4px;
+   /* vertical-align: top;  */
+    float: right;
+    border: 1px solid #cccccc;
+    zoom: 1;
+    *display: inline;
+}
+div#jbcontent form input[type=checkbox] { border: none !important}
+div#jbcontent form select, div#jbcontent form input[type=checkbox] {
+  display: inline-block !important;
+  position:relative;
+  zoom: 1;
+  *display: inline;
+}
+.ieprof-img {
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=1);
+}

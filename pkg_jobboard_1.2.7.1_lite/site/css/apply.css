@@ -1,0 +1,42 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+div#loginWrapper {position:relative}
+div#aplpwrapper #applcont {width: 100%}
+div#aplpwrapper #submitArea{float:right;clear: both; padding-top: 15px; padding-right: 20px; text-align:right}
+div#aplpwrapper #submitArea .button{padding-left:15px;padding-right:15px}
+div#aplpwrapper #submitArea .cancel{margin-left:15px;}
+div#aplpwrapper #contleft {float: left; width: 73%}
+div#aplpwrapper #contright {float: right; width: 25%; clear: none; padding: 10px 3px 5px 8px; border: 1px solid; font-size: 11px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -ms-border-radius: 3px;
+}
+div#aplpwrapper .controw label { padding-left: 1% }
+div#aplpwrapper .controw input {float: right; margin-right:12% !important;padding-bottom:4px;}
+div#aplpwrapper .fieldreq {margin-left:5px; font-weight:normal}
+div#aplpwrapper .summtitle {font-weight:bold}
+div#aplpwrapper #fslabel {padding-top: 2px; clear:both; margin-right: 12%; text-align: right}
+div#aplpwrapper .jsrow {width: 100%;clear: both; padding-top: 3px; padding-bottom: 2px;border-bottom: 1px dotted}
+div#aplpwrapper .lrow {border-bottom: none }
+div#aplpwrapper #loadr {margin-right:5px;padding-left: 18px;}
+div#aplpwrapper .hidel {visibility:hidden}
+div#aplpwrapper .showel {visibility:visible}
+div#aplpwrapper #contright .jsrow span.jobtype  {width: 90px; font-size: 10px;}
+div#aplpwrapper #cover_text {float: right; margin-right: 4%; width: 47%;padding-top:5px}
+div#aplpwrapper .mright12p { margin-right: 12%;}
+
+/* Style/Colors Apply-once-off */
+div#aplpwrapper #contright {background-color:#F6F6F6; border-color: #ddd; }
+div#aplpwrapper .fieldreq {color: #cc0000;}
+div#aplpwrapper .summtitle {color:#999;}
+div#aplpwrapper .jsrow {color: #444;border-bottom-color: #bbb;}
+div#aplpwrapper #loadr {background:transparent url(../images/rnd_loader.gif) no-repeat scroll left}
+/* end Style/Colors Apply-once-off */

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Job Board - Jobs</name>
+  <author>figomago.wordpress.com</author>
+  <version>1.0</version>
+  <description>Definition for Job content</description>
+  <copyright>2010 - 2012 figomago.wordpress.com.</copyright>
+  <reference type="content">
+  	<table name="jobboard_jobs">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="job_title"  length="50" maxlength="128" translate="1">Job Title</field>
+  		<field type="titletext" name="city" length="50" maxlength="64" translate="1">City</field>
+  		<field type="htmltext" name="description" translate="1" ebuttons="image,pagebreak,readmore">Description</field>
+  		<field type="htmltext" name="duties" translate="1"  ebuttons="image,pagebreak,readmore">Duties</field>
+  	</table>
+  </reference>
+</joomfish>

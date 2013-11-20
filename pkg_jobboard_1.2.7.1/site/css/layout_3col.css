@@ -1,0 +1,29 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+#jbcontent {width: 70%;
+float: left;
+clear: both;}
+#jbcsidebar { width: 28%;background: #F2F2F2; }
+#jbcsidebar li.sbheading {
+	background: #e3e3e3;
+}
+#jbcsidebar li.sbheading span {
+	background: url("../images/social_icons.png") no-repeat scroll -42px center transparent;
+    width:16px;
+    min-height:16px;
+    display:block;
+    text-indent:21px;
+    height:25px;
+}
+#jbcsidebar li.menuitem {
+	border-color: #CDDEE9;
+}
+
+#jbcsidebar li.text {
+	border-color: #aaa;
+}

@@ -1,0 +1,73 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+  div#loginPopup {
+    background: #fff;
+    padding:10px;
+    border: 1px solid #DBDFE3;
+    box-shadow: 0 0 5px #E3E5E5;
+    clear: right;
+    color: #787878;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 177px;
+    z-index: 2000;
+  }
+ div#loginPopup div#loginPopupForm {
+    padding: 10px 14px;
+    position: relative;
+    overflow: hidden;
+ }
+ div#loginPopup .field {
+    margin-bottom: 1px;
+ }
+ div#loginPopup label, div#loginPopup .forgotPass, div#loginPopup .elements input {
+    font: 11px/12px arial,helvetica,sans-serif;
+ }
+ div#loginPopup .elements {
+    padding-top: 3px;
+ }
+ div#loginPopup .elements input {
+    color: #787878;
+    padding: 5px 10px;
+    border: 1px solid #DCE0E4;  
+ }
+ div#loginPopup .fLoginOptions {
+    overflow: hidden;
+ }
+ div#loginPopup .fLoginOptions span {
+    display: block;
+    float: left;
+    padding: 1px 5px;
+ }
+ div#loginPopup .action {
+    text-align: center;
+    padding: 10px 0 0 0;
+ }
+ div#loginPopup .fLoginOptions input {
+    display: block;
+    float: left;
+    border: none;
+    padding: 0;
+ }
+ div#loginPopup .action button {
+    padding: 4px 15px;
+ }
+ div#loginPopup .forgotPass {
+    margin-bottom: 10px;
+    width: 100%;
+ }
+ div#loginPopup .forgotPass a, div#loginPopup .action a {
+    font-size: 10px;
+    text-decoration: none;
+    float:left;
+    width: 100%;
+ }
+ div#loginPopup .action a#pLoginCancel {
+    width:auto;
+ }

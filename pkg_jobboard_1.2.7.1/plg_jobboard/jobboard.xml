@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+	<name>System - Job Board</name>
+	<author>figomago.wordpress.com</author>
+    <authorEmail>figo.mago@gmail.com</authorEmail>
+	<creationDate>Apr 2012</creationDate>
+	<copyright>Copyright (c) 2010 - 2013 Tandolin Consultants cc/Figomago.</copyright>
+	<authorUrl>figomago.wordpress.com</authorUrl>
+	<version>1.0.0</version>
+	<license>GNU/GPL v3 or later</license>
+	<description>The Job Board system plugin assists the Job Board component site wide. It should always be published and requires the Job board component to be installed first.</description>
+	<files>
+		<filename plugin="jobboard">jobboard.php</filename>
+		<filename plugin="jobboard">index.html</filename>
+		<folder>jobboard</folder>
+	</files>
+    <languages>
+        <language tag="en-GB">languages/en-GB.plg_jobboard.ini</language>
+        <language tag="en-GB">languages/en-GB.plg_jobboard.sys.ini</language>
+    </languages>
+	<params>
+	</params>
+    <config>
+      <fields name="params">
+      </fields>
+    </config>
+</install>

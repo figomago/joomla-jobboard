@@ -1,0 +1,61 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+ /** Job type colouring **/
+
+div#jobcont .jsrow span.contract, div#jobtable span.contract, div#contright span.contract {
+    background-color: #3B6284 !important;
+    border: 2px solid #3B6284;
+    color: white !important;
+    text-shadow: rgba(0, 0, 0, 0.296875) 1px 1px 0px;
+  }
+div#jobcont .jsrow span.internship, div#jobtable span.internship, div#contright span.internship {
+    background-color: #D72F1D !important;
+    border: 2px solid #D72F1D;
+    color: white !important;
+    text-shadow: rgba(0, 0, 0, 0.296875) 1px 1px 0px;
+  }
+div#jobcont .jsrow span.full-time, div#jobtable span.full-time, div#contright span.full-time {
+    background-color: #8CB90E !important;
+    border: 2px solid #8CB90E;
+    color: white !important;
+    text-shadow: rgba(0, 0, 0, 0.296875) 1px 1px 0px;
+  }
+div#jobcont .jsrow span.part-time, div#jobtable span.part-time, div#contright span.part-time {
+    background-color: #E3A029 !important;
+    border: 2px solid #E3A029;
+    color: white !important;
+    text-shadow: rgba(0, 0, 0, 0.296875) 1px 1px 0px;
+  }
+div#jobcont .jsrow span.temporary, div#jobtable span.temporary, div#contright span.temporary {
+    background-color: #97479E !important;
+    border: 2px solid #97479E;
+    color: white !important;
+    text-shadow: rgba(0, 0, 0, 0.296875) 1px 1px 0px;
+  }
+div#jobcont .jsrow span.other, div#jobtable span.other, div#contright span.other {
+    background-color: #999999 !important;
+    border: 2px solid #999999;
+    color: #fff !important;
+    text-shadow: rgba(0, 0, 0, 0.296875) 1px 1px 0px;
+  }
+div#jobcont .jsrow span.jobtype, div#jobtable .jobsnippet span.jobtype , div#contright span.jobtype  {
+    font-family: 'Helvetica Neue', Georgia, Arial, Verdana, sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    background: url(../images/jt_ovr.png) repeat-x 50% 0%;
+    border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+    -moz-border-radius: 12px 12px 12px 12px;
+    display: block;
+    line-height: 1em !important;
+    margin: 2px;
+    padding: 2px 0px;
+    text-align: center;
+    vertical-align: middle;
+	cursor:default;
+}

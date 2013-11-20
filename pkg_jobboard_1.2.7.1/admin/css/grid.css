@@ -1,0 +1,23 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+a.grid_false {
+background-image: url('../../../images/publish_x.png');
+display: inline-block;
+height: 16px;
+text-indent: -1000em;
+width: 16px;
+cursor:pointer;
+}
+a.grid_true {
+background-image: url('../../../images/tick.png');
+display: inline-block;
+height: 16px;
+text-indent: -1000em;
+width: 16px;
+cursor:pointer;
+}

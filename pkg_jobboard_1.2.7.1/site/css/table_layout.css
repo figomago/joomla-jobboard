@@ -1,0 +1,37 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+div#jobtable td.bgwhite {padding-bottom:10px}
+div#jobtable td.bggrey {padding-bottom:10px}
+div#jobtable th, div#jobtable td {font-size:95%}
+div#jobtable .listView {background-position: -16px 0; margin-right: 4%;}
+div#jobtable .listView:hover, .listView.active {background-position: -16px -16px;}
+div#jobtable .listView:active {background-position: -16px -32px;}
+div#jobtable .tableView { background-position: 0 -16px;}
+div#jobtable .tableView:hover, div#jobtable .tableView:active, div#jobtable .tableView.active {background-position: 0 -32px;}
+div#jobtable .headbg td.first {border-left: 1px solid;}
+div#jobtable .headbg td.last {border-right: 1px solid;}
+div#jobtable .headbg td {border-bottom: 1px solid; border-top: 1px solid;}
+div#jobtable .featured.last {padding-bottom:20px; }
+div#jobtable .sup {padding-right: 11px;}
+div#jobtable .sdown {padding-right: 11px;}
+div#jobtable .jobsnippet span.jobtype {font-size: 10px;}
+
+/* Style/color - Job List:Table layout */
+
+div#jobtable td.bgwhite {background-color: #ffffff;}
+div#jobtable td.bggrey {background-color: #F5F5F5;}
+div#jobtable .bggrey.featured, div#jobtable .bgwhite.featured {background-color: #FAFAFA;}
+div#jobtable .featured a {color:#444; }
+div#jobtable td span.featured {color:#8CB90E}
+div#jobtable .headbg td.first {border-left-color: #EAEAEA;}
+div#jobtable .headbg td.last {border-right-color: #EAEAEA;}
+div#jobtable .headbg td {border-bottom-color: #EAEAEA;border-top-color: #EAEAEA;}
+div#jobtable .sup {background: transparent url(../images/arrow_up.png) no-repeat scroll right;}
+div#jobtable .sdown {background: transparent url(../images/arrow_down.png) no-repeat scroll right;}
+
+/* End Style/color - Job List:Table layout */

@@ -1,0 +1,166 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+regpanel .mleft10, #loginpanel .mleft10 {margin-left: 10px;}
+.profile-signup {
+    font-family: "Helvetica Neue",Arial,sans-serif
+  }
+.signup-call-out, .login-call-out {
+    width: 50%; float:left; clear:both;
+    padding: 8px 15% 12px 15%;
+    background: #F8F8F8;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    text-shadow: 0 1px 0 white;
+    margin: 6px 0 1em 10%;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+    -khtml-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.profile-signup h1 {
+font-weight: bold;
+text-shadow: 0 1px 0 white;
+margin: 5px 0 10px;
+line-height: 1.2;
+padding: 0;
+}
+.profile-signup h2 {
+/*color: #F90; */
+font-size: 18px;
+margin-top: -4px;
+margin-bottom: 2px;
+font-weight: 300;
+}
+.signup-call-out form.signup-btn {
+padding: 8px 0 2px 0;
+}
+form .holding {
+position: relative;
+overflow: visible;
+}
+.profile-signup form .holding input {
+border: 1px solid #CCC;
+-webkit-box-shadow: 0 1px #fff,inset 0 1px 1px rgba(0,0,0,.1);
+-moz-box-shadow: 0 1px 0 #fff,inset 0 1px 1px rgba(0,0,0,.1);
+box-shadow: 0 1px 0 #fff,inset 0 1px 1px rgba(0,0,0,.1);
+background-color: white;
+color: #333;
+padding: 9px 6px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+margin-bottom: 8px;
+opacity: 1;
+width: 70%; float:right;
+border-image: initial;
+}
+.holding.verific img {
+   float: right;
+}
+.holding.verific input {
+   width: 50%;
+}
+
+.holding .holder {
+line-height: 38px;
+float: left;
+white-space: nowrap;
+cursor: text;
+color: #999;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+-webkit-transition: opacity .1s,font-size .1s;
+-moz-transition: opacity .1s,font-size .1s;
+-o-transition: opacity .1s,font-size .1s;
+}
+a.promotional, input.promotional {                               
+display: block;
+padding: 4px 8px;
+border: 1px solid #FA2;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+text-decoration: none;
+text-align: center;
+color: #333;
+text-shadow: 0 1px 0 #FE6;
+font: bold 16px Helvetica Neue,Arial,Sans-serif;
+cursor: pointer;
+-moz-box-shadow: 0 1px 0 #fff;
+-webkit-box-shadow: 0 1px 0 #fff;
+box-shadow: 0 1px 0 #fff;
+border-image: initial;
+}
+.profile-signup .holding input, .profile-signup .holding .holder {
+    font-size: smaller;
+}
+.profile-signup .submit {
+height: 35px;
+float:right;
+padding-left: 16px;
+padding-right: 16px;
+margin-bottom: 3px;
+-webkit-box-shadow: 0 1px #fff;
+-moz-box-shadow: 0 1px 0 #fff;
+box-shadow: 0 1px 0 #fff;
+}
+.profile-signup form .holding:hover input {
+border: 1px solid #bbb;
+box-shadow: 0 1px 0 #fff, 0 1px 1px rgba(0, 0, 0, o.1) inset;
+}
+
+.profile-signup form .holding input:focus,
+.profile-signup form .holding input.focused,
+.profile-signup form .holding input.actasfocused   {
+  border-color: rgb(82, 168, 236, 0.75);
+  box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+  outline: none;
+}
+.right {
+  float:right !important;
+}
+.hidden {
+  /*visibility: hidden; */
+  display: none;
+  border-collapse:  collapse;
+}
+.jbhidden {
+  visibility: hidden !important;
+}
+
+p a {
+  font-family: Helvetica Neue,Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
+  font-size: 11px;
+  color: #0084B4;
+  margin-top: 5px;
+}
+label.remember {
+  float:left;
+  margin-right: 35%;
+  font-size: 11px;
+}
+
+.mpadr {
+  float:left; clear:none;
+}
+.clear {
+  clear: both
+}
+#regpanel a#csignup  {
+  float: left;
+  clear: none;
+  margin-left: 10%;
+}
+.txtpar {
+  margin-top: 45px;
+}
+a.hv_refresh {
+  font-size: 95%; float: right; margin-top: 3px; margin-bottom: 5px;
+}

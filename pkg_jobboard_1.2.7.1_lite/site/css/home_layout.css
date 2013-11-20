@@ -1,0 +1,164 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+div#jobtable div {
+  border-top: none;
+}
+div#jobtable div.home-panel {
+    float: left;
+    overflow: hidden;
+}
+
+div#jobtable table tr, div#jobtable table td {
+    border: none;
+}
+div#jobtable div.home-panel.first {
+    width: 61%;
+    padding-left: 19px;
+    margin-top: 10px;
+}
+div#jobtable div.home-panel.second {
+    float: left;
+    text-align: right;
+    width: 30%;
+}
+div#jobtable div.home-panel.second button {
+    margin-right: 9%;
+}
+div#jobtable div.home-panel p {
+  padding-left: 0;
+}
+div#jobtable div.snapshot {
+    padding: 0;
+}
+div#jobtable div.subcontent {
+    padding: 0;
+    margin: 0;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+div#jobtable div.subcontent.selected {
+    display: block !important;
+}
+div#jobtable .fullwidth {
+  position: relative;
+  width: 90%;
+}
+div#jobtable .mright20 {
+  margin-right: 20px;
+}
+div#jobtable .pright20 {
+  padding-right: 20px;
+}
+div#jobtable #toolpanel ul {
+    list-style-type: none;
+    list-style-position: outside;
+    margin-left: 0;
+    padding-left: 0;
+}
+div#jobtable #toolpanel ul li.heading {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+div#jobtable .content-box-sub-tab {
+  float: left;
+  border-bottom: 1px solid #C9C9C9;
+  margin-bottom: 10px;
+  overflow: visible;
+  padding-bottom: 0;
+  list-style-type: none;
+  margin: 1.5em 0 1em;
+  padding-left: 1.5em;
+  position: relative;
+  width: 97.5%;
+}
+div#jobtable .listing-container {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+div#jobtable table.listing-container td {
+  border-top: 1px solid #DFDFDF;
+  padding: 10px 5px 10px 0;
+  vertical-align: top;
+  font-size: 95%;
+  margin: 0;
+}
+div#jobtable table.listing-container td.jobsnippet {
+    text-align: center;
+}
+div#jobtable table.listing-container td span.jobtype {
+   font-size: 90%;
+}
+div#jobtable .content-box-sub-tab li {
+    list-style-type: none;
+    display: inline;
+    width: auto;
+    float:left;
+    margin-left: 5px;
+}
+/*div#jobtable .content-box-sub-tab li {
+  display: inline-block;
+  position: relative;
+}                     */
+.content-box-sub-tab li.active a {
+  background-color: #EFEFEF;
+  color: #333;
+  font-weight: bold;
+}
+.sub-tab-prime li a {
+  border: 1px solid #DFDFDF;
+  border-bottom: none;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  border-image: initial;
+
+}
+
+.content-box-sub-tab a, .content-box-sub-tab span {
+  color: #333;
+  display: block;
+  padding: 8px 10px;
+  margin-right: 1px;
+}
+.sub-tab-prime li.active a {
+  border: 0;
+  border-image: initial;
+}
+.content-box-sub-tab li a {
+  outline: none;
+    width: auto;
+
+}
+div#jobtable div.subcontent ul.categories-itemcol {
+    display: block;
+    float: left;
+    font-size: 95%;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 41%;
+    list-style-type: none;
+}
+div#jobtable div.subcontent ul.categories-itemcol li .jobCount {
+   display: inline;
+}
+div#jobtable div.browseall {
+   border-top: 1px dotted #DFDFDF;
+   padding-top: 5px;
+}
+/* Style/color - Job board Home */
+
+
+/* End Style/color - Job board Home */

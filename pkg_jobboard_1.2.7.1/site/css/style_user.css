@@ -1,0 +1,335 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+#jbcnav {
+	color: #2C8AC7;
+}
+#jbcnav ul#subtabs li.bordered {
+    border-color: #ccc;
+}
+#jbcnav ul#subtabs li.borderedl {
+    border-color: #ccc;
+}
+#jbcnav ul#subtabs li.borderedr {
+    border-color: #ccc;
+}
+#jbcnav ul#tabs li a {
+  color: #333;
+}
+#jbcnav ul#tabs li.home a.user {
+  background-color: #DFDFDF;
+}
+#jbcnav ul#tabs li.home a.admin {
+  background-color: #333;
+}
+#jbcnav ul#tabs li a span:hover {
+  box-shadow: 0 0 3px #0984BD;
+  -webkit-box-shadow: 0 0 3px #0984BD;
+  -moz-box-shadow: 0 0 3px #0984BD;
+  -o-box-shadow: 0 0 3px #0984BD;
+  -khtml-shadow: 0 0 3px #0984BD;
+  -ms-box-shadow: 0 0 3px #0984BD;
+ }
+#jbcnav ul#tabs li.home a span:hover {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -khtml-shadow: none;
+  -ms-box-shadow: none;
+}
+ #jbcnav ul#tabs li a span.active {
+  background-color: #333;color:#fff;
+ }
+#jbcnav ul#tabs li.home a span:hover {background-color: transparent;}
+#jbcnav ul#tabs li.home a:hover {background-color: #DDDDDD;}
+ #upanel ul .ui_actns {
+  color: #555;
+ }
+#jbcontent {
+	border-color:#ddd;
+}
+#jbcontent label {
+    color: #666;
+}
+#jbovsummary div {
+  border-color: #DDDDDD;
+  background-color:#F6F6F6;
+}
+#jbapplsummary div {
+  border-color: #DDDDDD;
+  background-color:#F6F6F6;
+}
+#jbapplsummary div span.applcol span.applstatus {
+  color:#444;
+}
+#jbovsummary h2, #jbmatchsummary h2, #jbapplsummary h2 {
+  /*color: #666; */
+}
+#jbovsummary div.last {
+  background-color:#F6F6F6;
+}
+#jbmatchsummary div {
+	border-color: #DDDDDD;
+}
+#jbmatchsummary div.last {
+	border-bottom: none;
+}
+#jbmatchsummary span.keyhead {
+    color: #aaa;
+}
+#jbmatchsummary a.keywd {
+    color: #222;
+}
+#jbmatchsummary a.keywd:hover {
+    color: #bbb;
+}
+#jbovsummary div:hover, #jbovsummary div:focus {
+  background-color:#F0F0F0;
+}
+#jbovsummary div.big_link a {
+  color: #444444;
+}
+#jbovsummary div.big_link.second {border-color: #ddd}
+#jbovsummary .type-smallgrey, #jbcontent .grey {
+  color: #999999;
+}
+#jbovsummary .type-red {
+  color: #C7041B;
+}
+#jbovsummary .type-note-black {
+  color: #666666;
+}
+div#jbcontent ul li.list-item small.stardate span.featured {
+  color: #FF5604; font-weight: bold;
+}
+
+/* Add CV Profile */
+
+#jbcontent span.frmheading {
+  border-color:#ddd;
+}
+#jbcontent .reqd {
+  color: #AF0318;
+}
+#jbcontent div#cvpreview div.filerow {
+ border-top: none;border-left: none; border-right: none; background: none !important;
+ border-bottom-color: #e3e3e3;
+}
+#jbcontent div#cvpreview input.btnedit, #jbcontent .btn-rnd {
+   border:none;
+}
+#jbcontent div#cvpreview input.btnedit:hover {
+   background-color: #E9E9E9;color: #333; text-shadow: none;
+}
+#jbcontent div#cvpreview div.filerow span.filesrc {
+   color: #777;
+}
+#jbcontent div.filerow a.btn, #jbcontent div.qualrow span.qualheading a.btn,
+#jbcontent div.emplrow span.emplheading a.btn, #jbcontent div#cvprofs a.pdel,
+div#jbcontent div#user-profile-content form#userForm span.pic-btns a#pic-delbtn, div#jbcontent .btn-red {
+  color: #fff !important;background-color: #C7041B !important; border-color: #A40216 !important;
+  text-shadow: 0 1px 1px rgba(150, 150, 150, 0.8);
+}
+#jbcontent div.filerow a.btn:hover, #jbcontent div.qualrow span.qualheading a.btn:hover,
+#jbcontent div.emplrow span.emplheading a.btn:hover, #jbcontent div#cvprofs a.pdel:hover,
+div#jbcontent div#user-profile-content form#userForm span.pic-btns a#pic-delbtn:hover, div#jbcontent .btn-red:hover {
+  background-color: #F00422 !important;
+}
+#jbcontent div.filerow a.btn:active, #jbcontent div.qualrow span.qualheading a.btn:active,
+#jbcontent div.emplrow span.emplheading a.btn:active, #jbcontent div#cvprofs a.pdel:active,
+div#jbcontent div#user-profile-content form#userForm span.pic-btns a#pic-delbtn:active, div#jbcontent .btn-red:active {
+  background-color: #AF0318 !important;;
+}
+#jbcontent div.skillwrapper {
+  border-color: #99CCE6;
+  background-color: #DDF0F8;
+}
+#jbcontent div.qedwrapper {
+  border-color: #C5E797;
+  background-color: #DFFFBD;
+  color: #2E3721;
+}
+#jbcontent div.qedwrapper span#fnametxt {background-color: #C4EC99 }
+#jbcontent div#ed_extra, #jbcontent div.qrowed {background-color: #FFFF99 !important; color: #41372B !important; border-color: #EBEB7B !important;
+box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);-webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.10);
+-moz-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.10); -khtml-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.10);
+-o-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.10);-ms-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.10);
+}
+#jbcontent div#ed_extra input[type=text].error, #jbcontent div.qrowed input[type=text].error,
+#jbcontent div#ed_extra select.error, #jbcontent div.qrowed select.error {
+   border-color: #ff6600;
+}
+#jbcontent div.qrowedmode {
+  cursor: default !important;
+}
+#jbcontent div.qrowed:hover {background-color: #FFFF99 !important;}
+#jbcontent span.skillbtns, #jbcontent span.skillexpperiod, #jbcontent span.skilllastuse, #jbcontent span.skillname {
+  color:#006B9F
+}
+#jbcontent div#filesfooter a, #jbcontent div#skillsfooter a, #jbcontent div#edfooter a,
+#jbcontent div#empfooter a, #jbcnav ul#subtabs li a.btn, #jbcontent div#cvprofs input.pedit, div#jbcontent .btn-grn, div#subtabs .btn-grn {
+  color: #fff; background-color: #8DC421;border-color: #749E1B;  text-shadow: 0 1px 1px rgba(150, 150, 150, 0.8);
+ }
+#jbcontent .btn-grey, #jbcnav ul#subtabs li .btn.btn-grey {
+  color: #555; background-color: #E9E9E9;border-color: #AAAAAA; text-shadow: 0 1px 1px rgba(2550, 255, 2550, 0.7);
+}
+#jbcontent div#cvprofs input.pview:hover {
+  background-color: #F3F3F3;
+}
+#jbcontent div#cvprofs input.pview:active {
+  background-color: #DDDDDD
+}
+div#cvprofs ul li ul.row li.buttons.grb {
+    background-color: #f3f3f3; text-shadow: 0 1px 1px rgba(150, 150, 150, 0.8);
+}
+#jbcnav ul#subtabs li a.btn-orng, #jbcnav ul#subtabs input.btn-orng {
+   color: #fff; background-color: #FA2;border-color: #E68F00;
+}
+#jbcnav ul#subtabs li a.btn, #jbcnav ul#subtabs input.btn {
+   color: #fff; text-shadow: 0 1px 1px rgba(150, 150, 150, 0.8);
+ }
+#jbcnav ul#subtabs li a.btn:hover, div#jbcontent div#user-profile-content form#userForm span.pic-btns input#pic-edbtn:hover {background-color: #FFBF55;border-color: #FFBF55;}
+#jbcnav ul#subtabs li a.btn:active, div#jbcontent div#user-profile-content form#userForm span.pic-btns input#pic-edbtn:active {background-color: #E68F00;}
+ #jbcontent div#filesfooter a:hover, #jbcontent div#skillsfooter a:hover, #jbcontent div#cvprofs input.pedit:hover,
+ #jbcontent div#edfooter a:hover, #jbcontent div#empfooter a:hover, div#jbcontent .btn-grn:hover, div#subtabs .btn-grn:hover {background-color: #A4DC30;}
+ #jbcontent div#filesfooter a:active, #jbcontent div#skillsfooter a:active, #jbcontent div#cvprofs input.pedit:active,
+ #jbcontent div#edfooter a:active, #jbcontent div#empfooter a:active, div#jbcontent .btn-grn:active, div#subtabs .btn-grn:active {background-color: #749E1B;}
+
+#jbcontent h2 {
+  /*color: #666; */
+}
+#jbcontent div#btn_container_footer {
+  border-color: #DDDDDD;
+}
+#jbcontent a#maploc.green { background-position: 0 -25px }
+#jbcontent a#maploc.grey, #jbcontent a#maploc:hover { background-position: 0 -50px }
+#jbcontent div#job_map {
+  border: 2px solid #D9D9D9;
+  box-shadow: 0 -1px 6px #828282;
+}
+#jbcontent span#calc_loc { font-size: smaller; font-weight:bold; margin-left: 15px; margin-top: 5px; clear:right}
+#jbcontent span#calc_loc span { color: inherit;}
+#jbcontent span#calc_loc span.second { color: #D94035;}
+#jbcontent div#map_instructions { font-size: smaller; margin-left: 15px; margin-top: 5px;}
+#jbcontent input#anyloc {
+  clear: right
+}
+#jbcontent div.qualrow, #jbcontent div.emplrow, #jbcontent div.filerow, #jbcontent div.formpanel {
+  background-color: #F8F8F8;
+  border-color: #DEDEDE;
+}
+#jbcontent div.tinyinput {border:none!important }
+
+div#jbcontent form input[type="text"], div#jbcontent form select, div#jbcontent form textarea,
+div#jbcontent input[type="text"], div#jbcontent select, div#jbcontent textarea {
+    border-color: #ccc;
+}
+#jbcontent div.qualrow span.qualheading, #jbcontent div.emplrow span.emplheading {
+  color: #444444;
+  background-color: #f3f3f3;
+}
+
+#jbcsidebar .bluebox, #jbcontent .bluebox {
+  background-color: #E8F1FF !important;
+  border-color: #C4DEE7;
+  color: #454647;
+}
+
+#jbcsidebar .yellowbox, #jbcontent .yellowbox {
+  background-color: #FFFFCC !important;
+  border-color: #F9E8A4 !important;
+  color: #333 !important;
+}
+
+#jbcsidebar .earthbox, #jbcontent .earthbox {
+  background-color: #FCECBC !important;
+  border-color: #FADC83 !important;
+  color: #300 !important;
+}
+
+div#cvprofs ul.edit_links li.line {border-color:#D5D5D5}
+#jbcontent div#cvpreview div.boxtitle h3 { color: #000}
+#jbcontent div#cvpreview div.boxtitle h4 { color: #074764;}
+
+div#jbcontent div#user-profile-content form#userForm span.pic-btns input#pic-cropbtn {
+   background-color: #749E1B;
+    border-color: #749E1B;
+    color: #fff;  text-shadow: 0 1px 1px rgba(150, 150, 150, 0.8);
+}
+div#jbcontent div#user-profile-content form#userForm span.pic-btns input#pic-edbtn {
+    background-color: #FFAA22;
+    border-color: #E68F00;
+    color: #FFFFFF;text-shadow: 0 1px 1px rgba(150, 150, 150, 0.8);
+}
+#jbcontent div#cvpreview h2.first {
+  color:#111;
+}
+ #jbcontent div#cvpreview span.skillset span.skill {
+  background-color: #f1f1f1;
+}
+div#jbcontent .btn-blue {
+  border: 1px solid;
+  background-color: #39D !important;
+  border-color: #39D #39D #28C !important;
+  color: #fff! important;
+  text-shadow: -1px -1px 0 #39D !important;
+}
+div#jbcontent .btn-blk, div#jbcnav .btn-blk {
+  border: 1px solid;
+  background-color: #333 !important;
+  border-color: #333 #333 #222 !important;
+  color: #fff! important;
+  text-shadow: -1px -1px 0 #333 !important;
+}
+div#jbcontent .btn-blk:hover, div#jbcnav .btn-blk:hover {
+  background-color: #666 !important;
+}
+div#jbcontent .btn-blk:active, div#jbcnav .btn-blk:active {
+  background-color: #111 !important;
+}
+div#cvprofs ul.edit_links a.link .meta_info {
+color: #888;
+}
+div#cvprofs ul.edit_links a.link .meta_info strong {
+  color: #555;
+}
+div#jbcontent ul li.list-item {
+  border-color:  #EAEAEA;
+}
+#jbcontent div.qrow {
+  border-color: #EEEEEE;
+}
+#jbcontent div.qrow:hover {
+  cursor : move;
+  background-color: #EEE;
+}
+#jbcontent div.qrow.viewing {
+  cursor : default;
+}
+#jbcontent div.qrow.white, #jbcontent div.qrow.white:hover {
+  background-color: #fff;
+}
+#jbcontent .opacityPointFour, div#jbcontent a.yesno:hover {
+  opacity: 0.4;
+}
+#jbcontent .fullOpacity {
+  opacity: 1
+}
+#jbcontent span.jbmsg {
+  color: #C7041B;
+}
+#jbcontent .hidden {
+  visibility: hidden;
+}
+#jbcontent .dispnone {
+  display: none;
+}
+/* tiny mce editor */
+.defaultSkin .mceIframeContainer {
+    border: 1px solid #CCCCCC !important;
+}

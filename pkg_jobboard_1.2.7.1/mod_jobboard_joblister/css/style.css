@@ -1,0 +1,150 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+.ListerWrapper {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px ;
+    font-style: normal ;
+    color: #333333;
+    border-bottom: 1px solid #E6E6E6;
+}
+.ListerWrapper .ListerContent {
+  overflow: hidden;
+  position:relative ;
+  margin: 5px 0;
+  display: block;
+  background-image: none !important;
+
+}
+.ListerContent ul { display: block;position: relative;float: left; min-height: 100px; }
+.ListerContent ul, .ListerContent ul li {background-image:none !important; list-style-type:none !important;}
+.ListerWrapper .clear {
+    clear:both;
+    display: block;
+}
+.ListerWrapper .right {
+    float:right
+}
+.ListerWrapper .left {
+    float:left
+}
+.ListerWrapper .hidden {
+    visibility:hidden
+}
+.ListerWrapper .dispnone {
+    display:none;
+}
+.ListerWrapper .mright5 {
+    margin-right: 5px
+}
+.ListerWrapper .mright10 {
+    margin-right: 10px
+}
+.ListerWrapper .mtop5{
+    margin-top: 5px
+}
+.ListerWrapper .mtop10{
+    margin-top: 10px
+}
+
+.ListerWrapper .ListerWrapper a:link {
+  text-decoration: none;
+}
+
+.ListerWrapper .facetCount {
+  color: #A4A4A4;
+  font-size: 11px;
+  font-weight: normal;
+}
+.ListerWrapper ul {
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+   width:99%;
+}
+.ListerWrapper li {
+  list-style-type: none;
+  margin-top: 5px;
+   width:99%;
+}
+
+/* lister controls */
+#ListerControls {
+  float: left;   clear:both;
+  margin-top: 10px;
+  margin-right: 5px;
+  width: 98%;
+  z-index: 10;
+  border: none;
+  background: transparent;
+  border-top: 1px dotted #ddd;
+  padding-top:10px;
+}
+#ListerControls .right {float: right; }
+#ListerControls span.prev, #ListerControls span.next {
+background: transparent url(../img/sprite_round_arrow_btns.png) no-repeat scroll 0 0;
+}
+#ListerControls span.pageInfo, #ListerControls span.totJobs {
+  display: block;
+  float: right;
+  font-size: 11px;
+  width: auto;
+  height: 17px;
+  margin-right: 5px;
+}
+#ListerControls span.totJobs {
+  margin-left: 5px;
+  float: left;
+}
+#ListerControls span.prev,
+#ListerControls span.prev:focus,
+#ListerControls span.prev:active {
+background-position: 0 -51px;
+cursor: pointer;
+display: block;
+float: right;
+margin-right:5px;
+height: 17px;
+overflow: hidden;
+text-indent: 200px;
+width: 17px;
+}
+#ListerControls span.prev.disabled, #ListerControls span.prev.disabled:active {
+background-position:  0 -34px;
+cursor: default;
+}
+#ListerControls span.next,
+#ListerControls span.next:focus,
+#ListerControls span.next:active {
+background-position: 0 -17px;
+cursor: pointer;
+display: block;
+float: right;
+height: 17px;
+outline: none;
+overflow: hidden;
+text-indent: 200px;
+width: 17px;
+}
+.ListerContent .loading {
+    background-color: #FFFFFF;
+    height: 999em;
+    opacity: 0.6;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.ListerContent .loading img {
+  margin-top: 20%;
+}
+#ListerControls span.next.disabled, #ListerControls span.next.disabled:active {
+background-position: 0 0;
+cursor: default;
+}

@@ -1,0 +1,66 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com> <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+div#job_map {
+  border: 1px solid #D9D9D9;
+  box-shadow: 0 -1px 3px #828282 inset;
+  margin-top: 5px;
+  margin-left: 1%;
+  clear: both;
+  height: 300px;
+  width: 97%;
+  float:left;
+}
+a#maploc {
+  font-size: smaller;
+  background: url("../images/geo_marker.png") no-repeat scroll 0 0 transparent;
+  min-height: 19px;
+  min-width: 12px;
+  padding-left: 15px;
+}
+a#maploc.green { background-position: 0 -25px }
+a#maploc.grey, a#maploc:hover { background-position: 0 -50px }
+span#calc_loc {
+  color: inherit;
+  clear: both;
+  font-size: smaller;
+  font-weight: bold;
+  margin-top: 5px;
+}
+span#calc_loc span.second, .red {
+  color: #D94035;
+}
+.mtopminus5{
+  margin-top: -5px;
+}
+.mright3em{
+  margin-right: 3em;
+}
+.mtop5{
+  margin-top: 5px;
+}
+.left {
+  float:left
+}
+.right {
+  float:right
+}
+.clear {
+  clear:both
+}
+.small {
+  font-size: smaller;
+}
+.bold {
+  font-weight: bold;
+}
+.hidden {
+  visibility: hidden;
+}
+.editlinktip {
+  cursor:help; border-top: 1px solid #000; border-bottom: 1px solid #000;
+}

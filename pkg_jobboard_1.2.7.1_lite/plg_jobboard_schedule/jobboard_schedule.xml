@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+	<name>System - Job Board Scheduler</name>
+    <author>figomago.wordpress.com</author>
+    <authorUrl>http://figomago.wordpress.com</authorUrl>
+    <copyright>Tandolin Consultants cc/Figomago, 2010-2013</copyright>
+    <license>GPLv3 or later</license>
+    <authorEmail>figo.mago@gmail.com</authorEmail>
+    <creationDate>Nov 2013</creationDate>
+	<description>Job Board plugin to run maintenance tasks according to set schedule. It should always be published and requires the Job board component to be installed first.</description>
+	<files>
+		<filename plugin="jobboard_schedule">jobboard_schedule.php</filename>
+		<filename plugin="jobboard_schedule">index.html</filename>
+	</files>
+    <languages>
+        <language tag="en-GB">languages/en-GB.plg_jobboard_schedule.ini</language>
+        <language tag="en-GB">languages/en-GB.plg_jobboard_schedule.sys.ini</language>
+    </languages>
+    <params>
+    </params>
+    <config>
+    </config>
+</install>

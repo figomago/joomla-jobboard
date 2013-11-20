@@ -1,0 +1,44 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com> <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+div#cvpreview div.filerow span.filesrc, table.admintable td span.filesrc {
+    width: 100%; clear: none;  font-size:smaller;
+   display: block; height: 16px; float:left;padding-left: 20px;padding-top: 10px;
+}
+div#cvpreview div.filerow span.plain, table.admintable td span.plain  {
+  background: url("../images/fileico/text.png") no-repeat scroll left transparent;
+}
+div#cvpreview div.filerow span.pdf, table.admintable td span.pdf  {
+  background: url("../images/fileico/pdf.png") no-repeat scroll left transparent;
+}
+div#cvpreview div.filerow span.msexcel, table.admintable td span.msexcel  {
+  background: url("../images/fileico/excel.png") no-repeat scroll left transparent;
+}
+div#cvpreview div.filerow span.msword, table.admintable td span.msword  {
+  background: url("../images/fileico/word.png") no-repeat scroll left transparent;
+}
+div#cvpreview div.filerow span.png, div#cvpreview div.filerow span.gif,
+div#cvpreview div.filerow span.jpg, div#cvpreview div.filerow span.jpeg,
+table.admintable td span.png, table.admintable td span.gif,
+table.admintable td span.jpg, table.admintable td span.jpeg
+  {
+  background: url("../images/fileico/image.png") no-repeat scroll left transparent;
+}
+div#cvpreview div.filerow input.delfile {
+  float: right !important; margin-right: 10px;margin-bottom: 0 !important;
+  background: url("../images/fileico/x.png") no-repeat scroll 0 -16px transparent;
+  width: 32px; height: 16px;border:none;text-indent: -9999px;cursor:pointer; margin-top: -13px;
+}
+div#cvpreview div.filerow input.delfile:hover {
+  background-position: 0 0;
+}
+div#cvpreview div.filerow strong, table.admintable td span.filesrc strong {
+   font-size:95%;
+}
+table.admintable td span.filesrc.blank img {
+  margin: -5px 5px auto -10px; padding: 0;
+}

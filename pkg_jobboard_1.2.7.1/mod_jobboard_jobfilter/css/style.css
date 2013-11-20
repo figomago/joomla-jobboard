@@ -1,0 +1,236 @@
+
+/**
+  @package JobBoard
+  @copyright Copyright (c)2010-2013 Figomago <http://figomago.wordpress.com>
+  @license : GNU General Public License v3 or later
+----------------------------------------------------------------------- */
+
+#filters {
+    width:100%;  height: auto;
+    margin: 0;
+    padding: 0;
+    font-size:11px;
+}
+
+#filters .filterSection * {
+    margin: 0;
+    padding: 0;
+}
+
+#filtersTitle {
+    margin: 10px 0 5px 10px;
+}
+
+#filters h1.grey, #filters h2.grey, #filters h3.grey, #filters h4.grey, #filters h5.grey, #filters h6.grey {
+    color: #333333 !important;
+}
+.filterSection {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 0 10px 0;
+}
+.filterSection .filterContent {
+  display: block;
+  margin: 5px 0;
+  padding-left: 12px;
+  position: relative;
+  overflow:hidden;
+}
+
+#filters .allc {width: 100%}
+#filters .filterSection .filterContent .scrollItems {/* margin: 0 !important; padding: 0 !important;*/  }
+#filters .filterContent ul.filter-catitem { display: block;float:left; position:relative;min-width: 200px; }
+#filters .filterSection .clear {
+    clear:both;
+    display: block;
+}
+
+#filters .filterSection .right {
+    float:right
+}
+
+#filters .filterSection .left {
+    float:left
+}
+
+#filters .filterSection .hidden {
+    visibility:hidden
+}
+
+#filters .filterSection .mright5 {
+    margin-right: 5px
+}
+
+#filters .filterSection .mright10 {
+    margin-right: 10px
+}
+#filters .filterSection .mtop5{
+    margin-top: 5px
+}
+#filters .filterSection .mtop10{
+    margin-top: 10px
+}
+
+#filters .filterSection .filterToggle {
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 7px 0 5px 5px;
+    position: relative;
+    background-color: #efefef;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+}
+
+#filters .filterSection .filterToggle span.foldIcon {
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  display: block;
+  height: 18px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 19px;
+  background: #dfdfdf url("../images/filter_fold.gif") scroll no-repeat 0 -19px;
+}
+
+#filters .filterSection .filterToggle span.foldIcon.open {
+  background-position: 0 0;
+}
+
+#filters .filterSection .filterToggle span.loadr {padding-left: 16px; padding-top: 11px; float:right; background: transparent url(../images/rnd_loader.gif) no-repeat scroll 0 0; clear:none;margin-right: 30px;}
+#filters .filterSection .stateOpen {
+  margin-right: 3px;
+  margin-top: 5px;
+  width: 9px;
+}
+
+#filters .filterSection .stateClosed {
+    height: 9px;
+    margin-right: 3px;
+    margin-top: 3px;
+    width: 9px;
+}
+#filters .filterSection .stateOpen span.foldIcon {
+  background-position: 0 0;
+}
+#filters .filterSection .filterContent {
+  margin: 5px 0;
+  padding-left: 12px;
+}
+#filters .filterSection .filterContent.dispnone {
+  display: none;
+}
+#filters .filterSection .filterContent.inputovr {
+    color: #AAAAAA;
+}
+#filters .filterSection div#keywds-content input[type="text"]{
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  font-size: 11px;
+  padding: 3px; margin-bottom: 6px; float:right; margin-right: 5%;width:50%;
+}
+#filters .filterSection div#keywds-content div#mod-filter-title-srch, #filters .filterSection div#keywds-content div#mod-filter-key-srch {
+   width: 100%; position: relative;
+}
+#filters .filterSection div#keywds-content span.tbLbl {
+  float: left; margin-right: 10px; margin-top: 5px; display:block; margin-left: 10%;
+}
+#filters .filterSection .filterContent ul li label {
+  font-weight: normal;
+  font-size: 11px;
+}
+#filters .filterSection input[type="submit"] {
+  font-weight: normal;
+  font-size: 11px;
+  padding: 2px 6px !important;
+}
+#filters .filterSection .filterSection a:link {
+  /*color: #00468C;*/
+  text-decoration: none;
+}
+
+#filters .filterSection .filterContent ul li a.close, #filters .filterSection .filterContent ul li a.chk_reset, .filterSection div#keywds-content a.close {float: right; width: 11px;
+  height: 11px;margin-left: 4px;margin-top: 2px;text-indent: 20px;display: block;overflow: hidden;
+  background: transparent url("../images/filter_close.png") scroll no-repeat 0 -11px;
+}
+#filters .filterSection .filterContent ul li a.close:hover, #filters .filterSection .filterContent ul li a.chk_reset:hover, #filters .filterSection div#keywds-content a.close:hover {background-position: 0 0}
+#filters .filterSection .filterContent ul li a.chk_reset, #filters .filterSection div#keywds-content a.close {margin-top: 4px; margin-right: 10px;}
+#filters .filterSection .bold {
+  font-weight: bold;
+}
+#filters .filterSection .jobCount, #filters .filterSection .filterHint, .filterSection .rangeHint {
+  font-size: 11px;
+  font-weight: normal;
+}
+#filters .filterSection ul {
+  padding: 0;
+  margin: 0;
+  background-image:none !important; list-style-type:none !important;
+}
+#filters .filterSection li {     
+  margin-top: 5px;
+  background-image:none !important; list-style-type:none !important;
+}
+
+#filters .filterSection .rangeHint {
+  font-weight:bold; font-size:110%
+}
+
+/* category controls */
+#catFiltercontrols {
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+  width: 28px;
+  z-index: 10;
+}
+#catFiltercontrols .right {float: right; }
+#catFiltercontrols span.prev, #catFiltercontrols span.next {
+  background: transparent url(../images/left_right.png) repeat-x 0 0;
+}
+#catFiltercontrols span.prev,
+#catFiltercontrols span.prev:focus,
+#catFiltercontrols span.prev:active {
+  background-position: 0 -20px;
+  cursor: pointer;
+  display: block;
+  float: left;
+  height: 14px;
+  overflow: hidden;
+  text-indent: 200px;
+  width: 14px;
+}
+#catFiltercontrols span.prev.disabled, #catFiltercontrols span.prev.disabled:active {
+  background-position: -20px -20px;
+  cursor: default;
+}
+#catFiltercontrols span.next,
+#catFiltercontrols span.next:focus,
+#catFiltercontrols span.next:active {
+  background-position: 0 0;
+  cursor: pointer;
+  display: block;
+  float: left;
+  height: 14px;
+  outline: none;
+  overflow: hidden;
+  text-indent: 200px;
+  width: 14px;
+}
+
+#catFiltercontrols span.next.disabled, #catFiltercontrols span.next.disabled:active {
+  background-position: -20px 0;
+  cursor: default;
+}
