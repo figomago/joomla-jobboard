@@ -6,12 +6,12 @@ Tested on: PHP 5.3.1
 
 Changes from v1.2.7
 
--- fixed - db right quote missing in site/models/admcvlist
--- changed - removed references to tandolin.com on copyright info
--- changed - updated backlink info
--- added - configuration option to display/turn off backlink footers
+- fixed: db right quote missing in site/models/admcvlist
+- changed: removed references to tandolin.com on copyright info
+- changed: updated backlink info
+- added: configuration option to display/turn off backlink footers
            The extension will display backlinks by default but you can now turn them off in the admin backend under "Jobboard->Settings->General"
--- added - 3 new laguage strings in admin's en-GB.com_jobboard.ini for backlink footer options
+- added: 3 new laguage strings in admin's en-GB.com_jobboard.ini for backlink footer options
 
 Job Board for Joomla Packages in Lite and Full formats
 
